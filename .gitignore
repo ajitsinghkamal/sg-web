@@ -1,0 +1,12 @@
+Backups/
+Cache/
+CachedData/
+GPUCache/
+LocalStorage/
+node_modules/
+User/
+Preferences/
+Cookies/
+Cookies-journal/
+/*.sock
+storage.json

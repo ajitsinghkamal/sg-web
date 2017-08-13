@@ -1,0 +1,209 @@
+@import url(./criticalStyles/globalStyle.css);
+
+.work-page{
+    
+    .gallery{
+        overflow: hidden;
+    }
+
+    .grid-holder{
+         position: relative; 
+        /*display: flex;
+        flex-flow: row nowrap;
+        width: 200%;
+        margin: 58px -15px -15px 0; */
+    }
+}
+
+.brand-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .logo{
+        a{
+            display: block;
+        }
+
+        img{
+            width:auto;
+            height: 120px;
+            transform: translateY(-10px);
+        }
+    }
+}
+
+
+
+.navigation--work{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.toggle-btn{
+    border: 1px solid $gold;
+    padding: 6px 35px;
+    font-size: 14.2px;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+    background-color: #fff;
+    flex-basis: 185px;
+    cursor:pointer;
+    transition: border-color 0.6s;
+
+    &:hover{
+        border-color: $black;
+    }
+
+
+    &.active{
+        background-color: $black;
+        border-color: $black;
+        color: #fff;
+    }
+}
+
+.flex-grid{
+    display: flex;
+    flex-flow:row wrap;
+    margin: 58px -15px -15px 0; 
+    justify-content: center;
+    
+}
+
+.grid--cell{
+    padding: 15px;
+    transition: all 0.3s cubic-bezier(0.1, 0.74, 0.3, 0.6);
+}
+
+.empty-cell{
+    max-width:390px;
+}
+
+.hide{
+    display: none;
+}
+
+.slide-in{
+      animation: slide-right 1.2s;  
+}
+
+.slide-out{
+        animation: slide-left 1.2s;
+}
+
+@keyframes slide-right{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide-left{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    max-width: 390px;
+   
+    .project-image{
+        background-color: $grey_sixty;
+        transition: all 0.3s;
+        position: relative;
+        &:before {
+            display: block;
+            content: "";
+            width: 100%;
+            padding-top: calc( 270 / 370 * 100%);
+        }
+
+        img{
+            width:100%;
+            object-fit: cover;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    .project-desc{
+        text-transform: uppercase;
+        h3{
+            font-weight:400;
+            /* font-family: */
+            letter-spacing: 0.4px;
+            line-height:1.56;
+        }
+
+        p{
+            font-size: 12px;
+            color: $grey_thirty;
+            font-style: italic;
+        }  
+    }
+}
+
+
+@media (min-width: 1920px){
+    .grid--cell{
+        flex: 0 0 20%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+    .grid--cell{
+        flex: 0 0 25%;
+    }
+}
+
+@media (min-width:1440px) and (max-width: 1600px){
+    .grid--cell{
+        flex: 0 0 28%;
+    }
+}
+/* 
+@media (min-width:1024px) and (max-width: 1440px){
+    .grid--cell{
+        flex: 0 0 28%;
+    }
+} */
+
+@media (min-width:1024px) and (max-width: 1440px){
+    .grid--cell{
+        flex: 0 0 33.3%;
+    }
+}
+
+@media (min-width:620px) and (max-width: 1024px){
+    .grid--cell{
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width:620px){
+    .grid--cell{
+        flex: 0 0 100%;
+    }
+
+}
+
+
