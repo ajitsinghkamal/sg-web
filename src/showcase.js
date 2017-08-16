@@ -13,6 +13,9 @@ $(document).ready(() => {
 	// initialise lazy loading
 	let myLazyLoad;
 
+	let timer;
+	let isFirst = true;
+
 	/**
 	 * takes in response from firebase database
 	 * and construct the grid showcase of the work done
@@ -21,15 +24,28 @@ $(document).ready(() => {
 	 */
 	function constructGrid(gridData, gridType) {
 		const dummyPanes = calcRequiredExtra(gridData.length);
-		gridData.forEach(data => {
+		gridData.forEach((data, index) => {
 			try {
-				let card = $("<a href=" + data.link + "></a>").addClass('grid--cell card');
+				let card = $("<a href=" + data.link + "></a>").addClass('grid--cell card').attr('id', gridType + index);
 				// let card = $("").addClass('');
+
 				card.append($("<div class='project-image'><img data-original=" + data.image + "></div>").addClass('lazyload'));
+				
+				if(data.slide){
+					slide.forEach(sl=>{
+						card.append()
+					})
+				}
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
 				// newGridElement.append($(card));
 
+
 				addToGrid(gridType, card);
+				// $(gridType + index).on('mouseenter', slideShow, function () {
+
+				// });
+
+				console.log($(gridType + index));
 
 			} catch (error) {
 				console.error(error.message);
@@ -40,6 +56,8 @@ $(document).ready(() => {
 			let newGridElement = $("<div></div>").addClass('grid--cell empty-cell');
 			addToGrid(gridType, newGridElement);
 		}
+
+
 	}
 
 	function addToGrid(grid, cell) {
@@ -48,6 +66,8 @@ $(document).ready(() => {
 		} else {
 			proGrid.append(cell);
 		}
+
+
 
 	}
 
@@ -68,15 +88,16 @@ $(document).ready(() => {
 		$.get(API, response => {
 			console.log(response);
 		})
-		.done(response => {
-			for (let key in response) {
-				constructGrid(response[key], key);
-			}
-			myLazyLoad = new LazyLoad();
-		})
-		.fail(error => {
-			console.error(error.message);
-		});
+			.done(response => {
+				for (let key in response) {
+					constructGrid(response[key], key);
+				}
+				myLazyLoad = new LazyLoad();
+				addHoverToCards();
+			})
+			.fail(error => {
+				console.error(error.message);
+			});
 	}
 
 	//------------- event listeners ---------------------
@@ -99,6 +120,33 @@ $(document).ready(() => {
 
 	})
 
+	function addHoverToCards() {
+		$('.poject-image img:gt(0)').hide();
+		$('.project-image').on('mouseenter', slideShow);
+		$('.project-image').on('mouseleave', () => {
+			clearInterval(timer);
+			isFirst = true;
+		});
+
+	}
+
+
+
+
 	beginShowcase();
+
+	
+	// slideshow 
+	function slideShow(event) {
+		timer = setInterval(() => {
+			$(':first-child', this)
+				.fadeOut()
+				.next('img')
+				.fadeIn()
+				.end()
+				.appendTo(this);
+		}, 1000);
+		isFirst = false;
+	}
 
 });
