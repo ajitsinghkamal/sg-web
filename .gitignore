@@ -6,7 +6,9 @@ LocalStorage/
 node_modules/
 User/
 Preferences/
-Cookies/
-Cookies-journal/
+Cookies
+Cookies-journal
+Local Storage/
+Preferences
 /*.sock
 storage.json

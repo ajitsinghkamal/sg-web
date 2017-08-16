@@ -27,26 +27,23 @@ $(document).ready(function () {
 		var dummyPanes = calcRequiredExtra(gridData.length);
 		gridData.forEach(function (data, index) {
 			try {
-				var card = $("<a href=" + data.link + "></a>").addClass('grid--cell card').attr('id', gridType + index);
+				var card = $("<a href=" + data.link + "></a>").addClass('grid--cell card');
 				// let card = $("").addClass('');
 
-				card.append($("<div class='project-image'><img data-original=" + data.image + "></div>").addClass('lazyload'));
+				var imgSlot = $("<div class='project-image'></div>").attr('id', gridType + index);
 
+				imgSlot.append($("<img data-original=" + data.image + "></div>").addClass('lazyload'));
 				if (data.slide) {
-					slide.forEach(function (sl) {
-						card.append();
+					data.slide.forEach(function (sl) {
+						imgSlot.append($("<img src=" + sl + ">").hide());
 					});
 				}
+				card.append(imgSlot);
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
 				// newGridElement.append($(card));
 
 
-				addToGrid(gridType, card);
-				// $(gridType + index).on('mouseenter', slideShow, function () {
-
-				// });
-
-				console.log($(gridType + index));
+				addToGrid(gridType, card, index);
 			} catch (error) {
 				console.error(error.message);
 			}
@@ -58,7 +55,8 @@ $(document).ready(function () {
 		}
 	}
 
-	function addToGrid(grid, cell) {
+	function addToGrid(grid, cell, index) {
+
 		if (grid === 'clientWork') {
 			clientGrid.append(cell);
 		} else {
@@ -112,7 +110,6 @@ $(document).ready(function () {
 	});
 
 	function addHoverToCards() {
-		$('.poject-image img:gt(0)').hide();
 		$('.project-image').on('mouseenter', slideShow);
 		$('.project-image').on('mouseleave', function () {
 			clearInterval(timer);
@@ -126,9 +123,11 @@ $(document).ready(function () {
 	function slideShow(event) {
 		var _this = this;
 
-		timer = setInterval(function () {
-			$(':first-child', _this).fadeOut().next('img').fadeIn().end().appendTo(_this);
-		}, 1000);
+		if (isFirst) {
+			timer = setInterval(function () {
+				$(':first-child', _this).fadeOut(800).next().fadeIn(800).end().appendTo(_this);
+			}, 2400);
+		}
 		isFirst = false;
 	}
 });

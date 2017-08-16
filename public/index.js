@@ -20,8 +20,8 @@ function whichTransitionEvent() {
 var transitionEvent = whichTransitionEvent();
 
 $(document).ready(function () {
-	var brush = document.querySelector(".brush-overlay");
-	$(".brush-overlay").addClass('brush-art');
+	var brush = document.querySelector(".brush-stroke");
+	$(".brush-stroke").addClass('brush-art');
 	brush.addEventListener(transitionEvent, function () {
 		$(".brand-logo").removeClass('hide').addClass('reveal');
 		$(".dash-navigation").removeClass('hide').addClass('reveal');

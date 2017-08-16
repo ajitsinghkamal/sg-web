@@ -26,26 +26,24 @@ $(document).ready(() => {
 		const dummyPanes = calcRequiredExtra(gridData.length);
 		gridData.forEach((data, index) => {
 			try {
-				let card = $("<a href=" + data.link + "></a>").addClass('grid--cell card').attr('id', gridType + index);
+				let card = $("<a href=" + data.link + "></a>").addClass('grid--cell card');
 				// let card = $("").addClass('');
 
-				card.append($("<div class='project-image'><img data-original=" + data.image + "></div>").addClass('lazyload'));
-				
-				if(data.slide){
-					slide.forEach(sl=>{
-						card.append()
+				let imgSlot = ($("<div class='project-image'></div>").attr('id', gridType + index));
+
+				imgSlot.append($("<img data-original=" + data.image + "></div>").addClass('lazyload'));
+				if (data.slide) {
+					data.slide.forEach(sl => {
+						imgSlot.append($("<img src=" + sl + ">").hide());
 					})
 				}
+				card.append(imgSlot);
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
 				// newGridElement.append($(card));
 
 
-				addToGrid(gridType, card);
-				// $(gridType + index).on('mouseenter', slideShow, function () {
+				addToGrid(gridType, card, index);
 
-				// });
-
-				console.log($(gridType + index));
 
 			} catch (error) {
 				console.error(error.message);
@@ -60,14 +58,13 @@ $(document).ready(() => {
 
 	}
 
-	function addToGrid(grid, cell) {
+	function addToGrid(grid, cell, index) {
+				
 		if (grid === 'clientWork') {
 			clientGrid.append(cell);
 		} else {
 			proGrid.append(cell);
 		}
-
-
 
 	}
 
@@ -121,7 +118,6 @@ $(document).ready(() => {
 	})
 
 	function addHoverToCards() {
-		$('.poject-image img:gt(0)').hide();
 		$('.project-image').on('mouseenter', slideShow);
 		$('.project-image').on('mouseleave', () => {
 			clearInterval(timer);
@@ -135,17 +131,19 @@ $(document).ready(() => {
 
 	beginShowcase();
 
-	
+
 	// slideshow 
 	function slideShow(event) {
-		timer = setInterval(() => {
-			$(':first-child', this)
-				.fadeOut()
-				.next('img')
-				.fadeIn()
-				.end()
-				.appendTo(this);
-		}, 1000);
+		if (isFirst) {
+			timer = setInterval(() => {
+				$(':first-child', this)
+					.fadeOut(800)
+					.next()
+					.fadeIn(800)
+					.end()
+					.appendTo(this);
+			}, 2400);
+		}
 		isFirst = false;
 	}
 
