@@ -8,10 +8,10 @@
 
     .grid-holder{
          position: relative; 
-        /*display: flex;
+        display: flex;
         flex-flow: row nowrap;
         width: 200%;
-        margin: 58px -15px -15px 0; */
+        transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.32, 0.92);
     }
 }
 
@@ -64,41 +64,16 @@
 }
 
 .hide{
-    display: none;
+    opacity: 0;
 }
 
-.slide-in{
-      animation: slide-right 1.2s;  
-}
-
-.slide-out{
-        animation: slide-left 1.2s;
-}
-
-@keyframes slide-right{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes slide-left{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-        transform: translateX(100%);
-    }
+.slide{
+    transform: translateX(-50%);
 }
 
 .card{
     display: flex;
     flex-flow: column nowrap;
-    height: 100%;
     max-width: 390px;
    
     .project-image{
@@ -112,6 +87,7 @@
             padding-top: calc( 270 / 370 * 100%);
         }
 
+
         img{
             width:100%;
             object-fit: cover;
@@ -123,6 +99,9 @@
             right: 0;
             bottom: 0;
 
+            &:first-child{
+                z-index:3;
+            }
            
         }
 

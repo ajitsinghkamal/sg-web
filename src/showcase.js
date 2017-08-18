@@ -9,6 +9,7 @@ $(document).ready(() => {
 	const proGrid = $(".grid--proactive");
 	const btnClient = $(".btn--client");
 	const btnProactive = $(".btn--proactive");
+	const gridHolder = $(".grid-holder");
 
 	// initialise lazy loading
 	let myLazyLoad;
@@ -109,24 +110,22 @@ $(document).ready(() => {
 	btnClient.on('click', () => {
 		btnClient.addClass('active');
 		btnProactive.removeClass('active')
-		proGrid.addClass('hide');
-		clientGrid.removeClass('hide');
+		// proGrid.addClass('hide');
+		// clientGrid.removeClass('hide');
+		gridHolder.removeClass('slide');				
 	})
 
 	btnProactive.on('click', () => {
 		btnClient.removeClass('active');
 		btnProactive.addClass('active')
-		clientGrid.addClass('hide');
-		proGrid.removeClass('hide');
-
+		// clientGrid.addClass('hide');
+		// proGrid.removeClass('hide');
+		gridHolder.addClass('slide');			
 	})
 
 	function addHoverToCards() {
 		$('.project-image').on('mouseenter', slideShow);
-		$('.project-image').on('mouseleave', () => {
-			clearInterval(timer);
-			isFirst = true;
-		});
+		$('.project-image').on('mouseleave', endSlideShow); 
 
 	}
 
@@ -138,17 +137,21 @@ $(document).ready(() => {
 
 	// slideshow 
 	function slideShow(event) {
-		if (isFirst) {
+			$(':first-child', this).fadeOut();
+			$(':nth-child(2)', this).fadeIn(800);
 			timer = setInterval(() => {
-				$(':first-child', this)
+				$(':nth-child(2)', this)
 					.fadeOut(800)
 					.next()
 					.fadeIn(800)
 					.end()
 					.appendTo(this);
-			}, 2400);
-		}
-		isFirst = false;
+			}, 1200);
+	}
+
+	function endSlideShow(event){
+			$(':first-child',this).fadeIn(800);
+			clearInterval(timer);
 	}
 
 });
