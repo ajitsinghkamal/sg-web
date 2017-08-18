@@ -1,1 +1,29 @@
-"use strict";function whichTransitionEvent(){var a=document.createElement("fakeelement"),b={WebkitAnimation:"webkitAnimationEnd",MozAnimation:"animationend",MSAnimation:"MSAnimationEnd",OAnimation:"oanimationend",animation:"animationend"};for(var c in b)if(a.style[c]!==void 0)return b[c]}var transitionEvent=whichTransitionEvent();$(document).ready(function(){var a=document.querySelector(".brush-overlay");$(".brush-overlay").addClass("brush-art"),a.addEventListener(transitionEvent,function(){$(".brand-logo").removeClass("hide").addClass("reveal"),$(".dash-navigation").removeClass("hide").addClass("reveal")},!1)});
+"use strict";
+
+function whichTransitionEvent() {
+	var dummyEl = document.createElement('fakeelement');
+	var transitions = {
+		"WebkitAnimation": "webkitAnimationEnd",
+		"MozAnimation": "animationend",
+		'MSAnimation': 'MSAnimationEnd',
+		"OAnimation": "oanimationend",
+		"animation": "animationend"
+	};
+
+	for (var t in transitions) {
+		if (dummyEl.style[t] !== undefined) {
+			return transitions[t];
+		}
+	}
+}
+
+var transitionEvent = whichTransitionEvent();
+
+$(document).ready(function () {
+	var brush = document.querySelector(".brush-stroke");
+	$(".brush-stroke").addClass('brush-art');
+	brush.addEventListener(transitionEvent, function () {
+		$(".brand-logo").removeClass('hide').addClass('reveal');
+		$(".dash-navigation").removeClass('hide').addClass('reveal');
+	}, false);
+});

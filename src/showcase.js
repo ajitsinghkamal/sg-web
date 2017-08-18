@@ -13,10 +13,12 @@ $(document).ready(() => {
 	// initialise lazy loading
 	let myLazyLoad;
 
-	 $('.photo-slider').slick({
-	      	 slidesToShow: 4,
-	      	 slidesToScroll: 4
-	      });
+	//  $('.photo-slider').slick({
+	//       	 slidesToShow: 4,
+	//       	 slidesToScroll: 4
+	//       });
+	// let timer;
+	// let isFirst = true;
 
 	/**
 	 * takes in response from firebase database
@@ -26,15 +28,26 @@ $(document).ready(() => {
 	 */
 	function constructGrid(gridData, gridType) {
 		const dummyPanes = calcRequiredExtra(gridData.length);
-		gridData.forEach(data => {
+		gridData.forEach((data, index) => {
 			try {
 				let card = $("<a href=" + data.link + "></a>").addClass('grid--cell card');
 				// let card = $("").addClass('');
-				card.append($("<div class='project-image'><img data-original=" + data.image + "></div>").addClass('lazyload'));
+
+				let imgSlot = ($("<div class='project-image'></div>").attr('id', gridType + index));
+
+				imgSlot.append($("<img data-original=" + data.image + "></div>").addClass('lazyload'));
+				if (data.slide) {
+					data.slide.forEach(sl => {
+						imgSlot.append($("<img src=" + sl + ">").hide());
+					})
+				}
+				card.append(imgSlot);
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
 				// newGridElement.append($(card));
 
-				addToGrid(gridType, card);
+
+				addToGrid(gridType, card, index);
+
 
 			} catch (error) {
 				console.error(error.message);
@@ -45,9 +58,12 @@ $(document).ready(() => {
 			let newGridElement = $("<div></div>").addClass('grid--cell empty-cell');
 			addToGrid(gridType, newGridElement);
 		}
+
+
 	}
 
-	function addToGrid(grid, cell) {
+	function addToGrid(grid, cell, index) {
+				
 		if (grid === 'clientWork') {
 			clientGrid.append(cell);
 		} else {
@@ -73,15 +89,16 @@ $(document).ready(() => {
 		$.get(API, response => {
 			console.log(response);
 		})
-		.done(response => {
-			for (let key in response) {
-				constructGrid(response[key], key);
-			}
-			myLazyLoad = new LazyLoad();
-		})
-		.fail(error => {
-			console.error(error.message);
-		});
+			.done(response => {
+				for (let key in response) {
+					constructGrid(response[key], key);
+				}
+				myLazyLoad = new LazyLoad();
+				addHoverToCards();
+			})
+			.fail(error => {
+				console.error(error.message);
+			});
 	}
 
 	//------------- event listeners ---------------------
@@ -104,6 +121,34 @@ $(document).ready(() => {
 
 	})
 
+	function addHoverToCards() {
+		$('.project-image').on('mouseenter', slideShow);
+		$('.project-image').on('mouseleave', () => {
+			clearInterval(timer);
+			isFirst = true;
+		});
+
+	}
+
+
+
+
 	beginShowcase();
+
+
+	// slideshow 
+	function slideShow(event) {
+		if (isFirst) {
+			timer = setInterval(() => {
+				$(':first-child', this)
+					.fadeOut(800)
+					.next()
+					.fadeIn(800)
+					.end()
+					.appendTo(this);
+			}, 2400);
+		}
+		isFirst = false;
+	}
 
 });

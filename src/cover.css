@@ -12,6 +12,7 @@
     .brush-stroke{
         position: relative;
         height: 75vh ;
+        transform:translateY(-75vh);
         z-index: 1;
     }
 
@@ -98,11 +99,11 @@
 /* animations */
 @keyframes paint{
     0%{
-       top:0px; 
+       top:-75vh; 
     }
     
     100%{
-        transform: translateY(-75vh)
+        transform: translateY(0)
     }
 }
 
