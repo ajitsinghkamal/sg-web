@@ -1,0 +1,112 @@
+@import url(./criticalStyles/globalStyle.css);
+
+
+.about-page .about-content .about-title {
+    line-height: 56px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about-page .about-content .about-title .text-color {
+    color: $gold;
+}
+
+.about-page .about-content .about-title .line-break::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.about-page .about-content .about-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.about-page .about-content .about-links .link {
+    margin: 0 40px;
+    color: $grey_sixty;
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+}
+
+.inner-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.about-page .about-content .inner-title {
+	font-size: 22px;
+    font-weight: 100;
+    line-height: 32px;
+    border-bottom: 2px solid $gold;
+    display: inline-block;
+}
+
+
+.about-page .about-content .success-story .story-title {
+    padding: 140px 15px 10px 15px;
+}
+
+.about-page .about-content .success-story .photo-slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.about-page .about-content .success-story .photo-slider .image {
+    background: $black;
+    height: 266px;
+    width: 518px;
+    margin: 14px;
+}
+
+.about-page .about-content .about-me {
+    padding: 140px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page .about-content .about-me .photo .photo-title {
+    padding-bottom: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+.about-page .about-content .about-me .photo .my-image {
+    width: 400px;
+    height: 400px;
+    background: $black;
+    margin-top: 28px;
+}
+
+.about-page .about-content .about-me .content {
+    margin-left: 100px;
+}
+
+.about-page .about-content p {
+    text-align: left;
+    margin-top: 0;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+}
+
+.about-page .about-content .client-says {
+	margin-bottom: 140px;
+}
+
+.about-page .about-content .client-says .client-title {
+    padding: 0 15px 10px 15px;
+}
+
+.about-page .about-content .client-says .client-content {
+	margin-top: 20px;
+}

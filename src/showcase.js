@@ -14,8 +14,12 @@ $(document).ready(() => {
 	// initialise lazy loading
 	let myLazyLoad;
 
-	let timer;
-	let isFirst = true;
+	//  $('.photo-slider').slick({
+	//       	 slidesToShow: 4,
+	//       	 slidesToScroll: 4
+	//       });
+	// let timer;
+	// let isFirst = true;
 
 	/**
 	 * takes in response from firebase database
