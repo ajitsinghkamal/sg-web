@@ -41,6 +41,24 @@ button:focus{
         align-self: center;  
     }
 }
+.brand-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .logo{
+        a{
+            display: block;
+        }
+
+        img{
+            width:auto;
+            height: 120px;
+            transform: translateY(-10px);
+        }
+    }
+}
 
 .navigation{
     width:330px;

@@ -13,6 +13,11 @@ $(document).ready(() => {
 	// initialise lazy loading
 	let myLazyLoad;
 
+	 $('.photo-slider').slick({
+	      	 slidesToShow: 4,
+	      	 slidesToScroll: 4
+	      });
+
 	/**
 	 * takes in response from firebase database
 	 * and construct the grid showcase of the work done
