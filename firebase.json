@@ -22,6 +22,15 @@
             "value": "max-age=300"
           }
         ]
+      },
+      {
+        "source": "scripts/*.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
+          }
+        ]
       }
     ],
     "cleanUrls": true

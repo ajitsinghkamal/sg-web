@@ -1,9 +1,4 @@
-@import url(./criticalStyles/globalStyle.css);
-
-
-.brand{
-	/* width: 330px; */
-}
+@import url("./../criticalStyles/globalStyle.css");
 
 .brand{
     position: relative;

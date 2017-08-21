@@ -15,8 +15,7 @@ $(document).ready(function () {
 	// initialise lazy loading
 	var myLazyLoad = void 0;
 
-	var timer = void 0;
-	var isFirst = true;
+	var timer = null;
 
 	/**
   * takes in response from firebase database
@@ -41,8 +40,6 @@ $(document).ready(function () {
 				}
 				card.append(imgSlot);
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
-				// newGridElement.append($(card));
-
 
 				addToGrid(gridType, card, index);
 			} catch (error) {
@@ -124,14 +121,15 @@ $(document).ready(function () {
 		var _this = this;
 
 		$(':first-child', this).fadeOut();
-		$(':nth-child(2)', this).fadeIn(800);
+		$(':nth-child(2)', this).fadeIn(1000);
 		timer = setInterval(function () {
-			$(':nth-child(2)', _this).fadeOut(800).next().fadeIn(800).end().appendTo(_this);
+			$(':nth-child(2)', _this).fadeOut(1000).next().fadeIn(1000).end().appendTo(_this);
 		}, 1200);
 	}
 
 	function endSlideShow(event) {
-		$(':first-child', this).fadeIn(800);
+		$(':first-child', this).fadeIn(1000);
 		clearInterval(timer);
 	}
 });
+//# sourceMappingURL=maps/work.js.map

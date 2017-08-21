@@ -1,5 +1,6 @@
 @import url(normalize.css);
 @import url(colors.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html{
 	box-sizing: border-box ;
@@ -41,6 +42,7 @@ button:focus{
         align-self: center;  
     }
 }
+
 .brand-header{
     display: flex;
     flex-flow: row;

@@ -4,10 +4,9 @@
   "description": "portfolio of Sudeep Gandhi",
   "main": "index.js",
   "scripts": {},
-  "author": "@AjitSinghKamal",
+  "author": "Ajit Singh Kamal <ajitskamal@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "html-minifier": "^3.5.3",
     "postcss": "^6.0.8",
     "postcss-cli": "^4.1.0",
     "superstatic": "^4.2.1"
@@ -22,6 +21,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-htmlmin": "^3.0.0",
     "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-util": "^3.0.8",
     "postcss-import": "^10.0.0",
     "postcss-load-config": "^1.2.0",

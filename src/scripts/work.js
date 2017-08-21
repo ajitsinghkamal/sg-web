@@ -14,12 +14,7 @@ $(document).ready(() => {
 	// initialise lazy loading
 	let myLazyLoad;
 
-	//  $('.photo-slider').slick({
-	//       	 slidesToShow: 4,
-	//       	 slidesToScroll: 4
-	//       });
-	// let timer;
-	// let isFirst = true;
+	let timer = null;
 
 	/**
 	 * takes in response from firebase database
@@ -44,8 +39,6 @@ $(document).ready(() => {
 				}
 				card.append(imgSlot);
 				card.append($("<div><h3>" + data.title + "</h3><p>" + data.tag + "</p></div>").addClass('project-desc'));
-				// newGridElement.append($(card));
-
 
 				addToGrid(gridType, card, index);
 
@@ -64,7 +57,7 @@ $(document).ready(() => {
 	}
 
 	function addToGrid(grid, cell, index) {
-				
+
 		if (grid === 'clientWork') {
 			clientGrid.append(cell);
 		} else {
@@ -112,7 +105,7 @@ $(document).ready(() => {
 		btnProactive.removeClass('active')
 		// proGrid.addClass('hide');
 		// clientGrid.removeClass('hide');
-		gridHolder.removeClass('slide');				
+		gridHolder.removeClass('slide');
 	})
 
 	btnProactive.on('click', () => {
@@ -120,12 +113,12 @@ $(document).ready(() => {
 		btnProactive.addClass('active')
 		// clientGrid.addClass('hide');
 		// proGrid.removeClass('hide');
-		gridHolder.addClass('slide');			
+		gridHolder.addClass('slide');
 	})
 
 	function addHoverToCards() {
 		$('.project-image').on('mouseenter', slideShow);
-		$('.project-image').on('mouseleave', endSlideShow); 
+		$('.project-image').on('mouseleave', endSlideShow);
 
 	}
 
@@ -137,21 +130,21 @@ $(document).ready(() => {
 
 	// slideshow 
 	function slideShow(event) {
-			$(':first-child', this).fadeOut();
-			$(':nth-child(2)', this).fadeIn(800);
-			timer = setInterval(() => {
-				$(':nth-child(2)', this)
-					.fadeOut(800)
-					.next()
-					.fadeIn(800)
-					.end()
-					.appendTo(this);
-			}, 1200);
+		$(':first-child', this).fadeOut();
+		$(':nth-child(2)', this).fadeIn(1000);
+		timer = setInterval(() => {
+			$(':nth-child(2)', this)
+				.fadeOut(1000)
+				.next()
+				.fadeIn(1000)
+				.end()
+				.appendTo(this);
+		}, 1200);
 	}
 
-	function endSlideShow(event){
-			$(':first-child',this).fadeIn(800);
-			clearInterval(timer);
+	function endSlideShow(event) {
+		$(':first-child', this).fadeIn(1000);
+		clearInterval(timer);
 	}
 
 });

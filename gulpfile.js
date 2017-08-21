@@ -1,58 +1,98 @@
+/**
+ * dependencies
+ */
+
+//==================== Gulp ==========================
 var gulp = require('gulp');
 var util = require('gulp-util');
-//server stuff
+var map = require('gulp-sourcemaps');
+
+//=================== Server ========================= 
 var superstatic = require('superstatic');
 var browserSync = require('browser-sync').create();
-//dev stuff
+
+//================== Dev =============================
 var postcss = require('gulp-postcss');
 var babel = require('gulp-babel');
 var htmlmin = require('gulp-htmlmin');
 
+
+/**
+ * reloads browser
+ * 
+ * @param {any} done 
+ */
 function reload(done) {
 	browserSync.reload();
 	done();
 }
 
+/**
+ * compile postcss and minify it
+ */
 gulp.task('css', function () {
-	return gulp.src('src/*.css')
+	return gulp.src('src/styles.css')
+		.pipe(map.init())
 		.pipe(postcss())
-		.pipe(gulp.dest('public/stylesheets'));
+		.pipe(map.write('./maps'))
+		.pipe(gulp.dest('public/'))
+		.pipe(browserSync.stream());
 });
 
-gulp.task('watchCss', ['css'], reload );
+/**
+ * css task watcher
+ */
+gulp.task('watchCss', ['css']);
 
-
+/**
+ * compile es6 to legacy js and uglify it
+ */
 gulp.task('es', function () {
-	return gulp.src('src/*.js')
+	return gulp.src('src/scripts/*.js')
+		.pipe(map.init())
 		.pipe(babel())
+		.pipe(map.write('./maps'))
 		.pipe(gulp.dest('public'));
 });
 
+/**
+ * es task watcher
+ */
 gulp.task('watchJs', ['es'], reload);
 
-gulp.task('minify', function () {
+/**
+ * minify html
+ */
+gulp.task('html', function () {
 	return gulp.src('src/*.html')
-		.pipe(util.env.production? htmlmin({
-			collapseWhitespace: true,
-		}) : util.noop())
+		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest('public'))
 });
 
-gulp.task('watchHTML', ['minify'], reload);
+/**
+ * html task watcher
+ */
+gulp.task('watchHTML', ['html'], reload);
 
-gulp.task('default', ['css', 'es', 'serve']);
-
+/**
+ * initialise browsersync and register watchers
+ */
 gulp.task('serve', function () {
 	browserSync.init({
-		browser:['google-chrome'],
+		browser:['google-chrome'],	// default browser
 		server: {
-			baseDir: 'public',
+			baseDir: 'public',		// specify files to serve here
 			middleware: [superstatic({
 				stack: 'strict',
 			})]
 		}
 	});
 	gulp.watch('src/*.html', ['watchHTML']);
-	gulp.watch(['src/*.css', 'postcss.config.js'], ['watchCss'])
-	gulp.watch('src/*.js' , ['watchJs'])
+	gulp.watch(['src/**/*.css', 'postcss.config.js'], ['watchCss'])
+	gulp.watch('src/scripts/*.js' , ['watchJs'])
 });
+
+/**
+ * assign default task to run on gulp
+ */
+gulp.task('default', ['html', 'css', 'es', 'serve']);
