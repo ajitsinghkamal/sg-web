@@ -39,7 +39,7 @@
 
 
 .about-page .about-content .inner-title {
-	font-size: 22px;
+    font-size: 22px;
     font-weight: 100;
     line-height: 32px;
     border-bottom: 2px solid $gold;
@@ -58,11 +58,41 @@
     margin-top: 15px;
 }
 
+.slick-prev:before {
+    content: '<' !important;
+}
+
+.slick-next:before {
+    content: '>' !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: $gold !important;
+    font-size: 40px !important;
+    line-height: 0 !important;
+}
+
 .about-page .about-content .success-story .photo-slider .image {
-    background: $black;
     height: 266px;
-    width: 518px;
-    margin: 14px;
+    width: 48% !important;
+    margin: 10px;
+    position: relative;
+}
+
+.about-page .about-content .success-story .photo-slider .image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/about-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .about-page .about-content .about-me {
@@ -81,8 +111,23 @@
 .about-page .about-content .about-me .photo .my-image {
     width: 400px;
     height: 400px;
-    background: $black;
     margin-top: 28px;
+    position: relative;
+}
+
+.about-page .about-content .about-me .photo .my-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/about-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .about-page .about-content .about-me .content {
@@ -98,7 +143,13 @@
 }
 
 .about-page .about-content .client-says {
-	margin-bottom: 140px;
+    margin-bottom: 140px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.client-says p {
+    padding: 0 120px;
 }
 
 .about-page .about-content .client-says .client-title {
@@ -106,5 +157,55 @@
 }
 
 .about-page .about-content .client-says .client-content {
-	margin-top: 20px;
+    margin-top: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: $gold !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+}
+
+@media screen and (max-width: 1150px) {
+    .about-page .about-content .about-me {
+
+        flex-direction: column;
+    }
+
+    .about-page .about-content .about-me .photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .about-page .about-content .about-me .content {
+        margin-left: 0;
+    }
+    .client-says p {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (min-width: 759px) and (max-width: 1127px) {
+    .about-page .about-content .success-story .photo-slider .image {
+        width: 44%!important;
+    }
+}
+
+@media screen and (min-width: 629px) and (max-width: 758px) {
+    .about-page .about-content .success-story .photo-slider .image {
+        width: 40%!important;
+        height: 216px;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .about-page .about-content .success-story .photo-slider .image {
+        height: 186px;
+        width: 45%!important;
+        margin: 5px;
+    }
 }
