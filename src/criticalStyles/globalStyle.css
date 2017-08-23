@@ -1,6 +1,6 @@
 @import url(normalize.css);
 @import url(colors.css);
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
 
 html{
 	box-sizing: border-box ;

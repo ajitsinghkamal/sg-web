@@ -17,6 +17,8 @@
     "babel-preset-env": "^1.6.0",
     "browser-sync": "^2.18.13",
     "cssnano": "^3.10.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-htmlmin": "^3.0.0",

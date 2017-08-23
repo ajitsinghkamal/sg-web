@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html> 
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="normalise">
+	<div class="container admin-page">
+		<section class="login">
+			<form id="login-form">
+				<fieldset class="panel">
+					<legend>enter credentials</legend>
+					<label>username
+					<input type="text" id="email">
+					</label>
+					<label>password
+					<input type="text" id="password">
+					</label>
+				</fieldset>
+				<button class="login--btn" type="submit">login</button>
+			</form>
+		</section>
+		</div>
 		
-	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>		
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>	
+	<script>
+		var config = {
+			apiKey: "AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE",
+			authDomain: "sudeepgandhiweb.firebaseapp.com",
+			databaseURL: "https://sudeepgandhiweb.firebaseio.com",
+			projectId: "sudeepgandhiweb",
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+	<script defer src="admin.js"></script>
 	</body>
 </html>

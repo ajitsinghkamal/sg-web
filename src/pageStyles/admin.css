@@ -1,0 +1,58 @@
+.admin-page{
+	height:100vh;
+	
+}
+
+.login{
+	position: relative;
+    height: 100%;
+
+	form{
+		position: relative;
+		transform: translate(-50%,-50%);
+		top: 50%;
+		left: 50%;
+		width: 500px;
+
+	}
+
+	.login--btn{
+		width: 498px;
+		border: none;
+		padding: 12px;
+		font-size: 1em;
+		margin: 20px 0;
+		cursor: pointer;
+		letter-spacing: 1px;
+	}
+}
+
+.panel{
+	text-align: center;
+    border-radius: 2px;
+
+	legend{
+		padding: 0 10px;
+		font-weight: 300;
+    	letter-spacing: 1px;
+	}
+
+	label{
+		display: block;
+    	padding: 20px;
+
+		input{
+			margin: 20px;
+			padding: 7px;
+			width: 300px;
+			border-radius: 2px;
+			border: 2px solid gray;
+			font-size: 1em;
+			font-weight: 300;
+			letter-spacing: 1px;
+		}
+	}
+
+
+	
+}

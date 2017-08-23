@@ -1,0 +1,19 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "no-tabs": "off"
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "globals": {
+        "firebase": true,
+        "Handlebars": true
+    }
+}
