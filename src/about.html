@@ -92,8 +92,6 @@
             </div>
         </main>
     </div>
-    <!--  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
     <script type="text/javascript" src="slick-slider/slick/slick.min.js"></script>
@@ -105,18 +103,16 @@
             slidesPerRow: 2,
             // responsive: [
             //     {
-            //         breakpoint: 600,
+            //         breakpoint: 780,
             //         settings: {
-            //             rows: 0,
-            //             slidesPerRow: 0,
-            //             slidesToShow: 4,
-            //             slidesToScroll: 4
+            //             rows: 1,
             //         }
             //     }
             // ]
         });
         $('.client-content').slick({
-            dots: true
+            dots: true,
+            autoplay: true
         });
         $(".link").on('click', function(event) {
             if (this.hash !== "") {
