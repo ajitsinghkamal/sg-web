@@ -12,23 +12,53 @@
 
 <body class="normalise">
 	<div class="container admin-page">
-		<section class="login">
+		<section class="login page-section">
 			<form id="login-form">
 				<fieldset class="panel">
-					<legend>enter credentials</legend>
-					<label>username
-					<input type="text" id="email">
-					</label>
-					<label>password
-					<input type="text" id="password">
-					</label>
+					<input type="text" id="email" placeholder="email">
+					<hr>
+					<input type="password" id="password" placeholder="password">
 				</fieldset>
 				<button class="login--btn" type="submit">login</button>
 			</form>
 		</section>
+		<div class="dashboard page-section">
+			<header>
+				<p>dashboard</p>
+			</header>
+
+			<main class="dashboard--editor">
+				<section class="editor section-slice">
+					<select name="projectType">
+						<option disabled>project type</option>
+						<option>client work</option>
+						<option>proactive work</option>
+			  		</select>
+
+					<input class="field" type="text" placeholder="image">
+					<button>add slides</button>
+					<input class="field" type="text" placeholder="link">
+					<input class="field" type="text" placeholder="tag">
+					<input class="field" type="text" placeholder="title">
+					<input class="field" type="text" placeholder="logo">
+					<input class="field" type="text" placeholder="heading">
+					<input class="field" type="text" placeholder="intro">
+					<input class="field" type="text" placeholder="mocks">
+					<input class="field" type="text" placeholder="notes">
+					<input class="field" type="text" placeholder="orientation">
+					<input class="field" type="text" placeholder="elements">
+				</section>
+
+				<section class="export section-slice">
+
+				</section>
+			</main>
 		</div>
-		
-	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>	
+
+	</div>
+
+
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 	<script>
 		var config = {
 			apiKey: "AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE",
@@ -41,5 +71,6 @@
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
 	<script defer src="admin.js"></script>
-	</body>
+</body>
+
 </html>

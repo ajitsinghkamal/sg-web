@@ -1,27 +1,36 @@
-function whichTransitionEvent() {
-	const dummyEl = document.createElement('fakeelement');
-	const transitions = {
-		"WebkitAnimation": "webkitAnimationEnd",
-		"MozAnimation": "animationend",
-		'MSAnimation' :'MSAnimationEnd',
-		"OAnimation": "oanimationend",
-		"animation": "animationend"
-	}
+import $ from 'jquery';
+import { classShuffleUtil } from './app';
 
-	for (let t in transitions) {
-		if (dummyEl.style[t] !== undefined) {
-			return transitions[t];
+const brush = document.querySelector('.brush-stroke');
+
+/**
+ * determine the correct browser specific animation end event
+ * 
+ */
+const browserAnimationCheck = function whichAnimationEvent() {
+	const dummyEl = document.createElement('fakeelement');
+	const animationEventMap = new Map();
+	animationEventMap.set('WebkitAnimation', 'webkitAnimationEnd');
+	animationEventMap.set('MozAnimation', 'animationend');
+	animationEventMap.set('MSAnimation', 'MSAnimationEnd');
+	animationEventMap.set('OAnimation', 'oanimationend');
+	animationEventMap.set('animation', 'animationend');
+
+	/* eslint-disable no-restricted-syntax */
+	for (const [event, value] of animationEventMap) {
+		if (dummyEl.style[event] !== undefined) {
+			return value;
 		}
 	}
-}
+	/* eslint-enable no-restricted-syntax */
 
-const transitionEvent = whichTransitionEvent();
+	return undefined;
+};
 
-$(document).ready(() => {
-	const brush = document.querySelector(".brush-stroke");
-	$(".brush-stroke").addClass('brush-art');
-	brush.addEventListener(transitionEvent, () => {
-		$(".brand-logo").removeClass('hide').addClass('reveal');
-		$(".dash-navigation").removeClass('hide').addClass('reveal');
-	},false );
-});
+const animationEvent = browserAnimationCheck();
+
+$('.brush-stroke').addClass('brush-art');
+
+brush.addEventListener(animationEvent, () => {
+	classShuffleUtil(['.brand-logo', '.dash-navigation'], 'reveal', 'hide');
+}, false);

@@ -1,18 +1,35 @@
 .admin-page{
 	height:100vh;
+
+	input{
+		display: block;
+		border: none;
+
+			&:focus{
+				outline:0;
+			}
+	}
 	
 }
 
-.login{
-	position: relative;
+.page-section{
+	position: absolute;
     height: 100%;
+	top: 0;
+	left: 0;
+	width:100%;
 
+}
+.login{
+	z-index:20;
+	display: none;
 	form{
 		position: relative;
 		transform: translate(-50%,-50%);
 		top: 50%;
 		left: 50%;
 		width: 500px;
+		border:none;
 
 	}
 
@@ -23,36 +40,73 @@
 		font-size: 1em;
 		margin: 20px 0;
 		cursor: pointer;
-		letter-spacing: 1px;
+		background: #80A1C1;
+		color: white;
+		border-radius: 8px;
 	}
 }
 
 .panel{
-	text-align: center;
-    border-radius: 2px;
-
-	legend{
-		padding: 0 10px;
-		font-weight: 300;
-    	letter-spacing: 1px;
-	}
-
-	label{
-		display: block;
-    	padding: 20px;
+		text-align: center;
+		border: 8px solid #80A1C1;
+		border-radius: 6px;
+		padding: 0 20px;
 
 		input{
-			margin: 20px;
+			display: block;
+			margin: 20px auto;
 			padding: 7px;
-			width: 300px;
-			border-radius: 2px;
-			border: 2px solid gray;
+			width: 100%;
 			font-size: 1em;
 			font-weight: 300;
 			letter-spacing: 1px;
 		}
+		hr{
+			border: none;
+			border-bottom: 1px solid black;
+		}
+}
+
+.dashboard{
+	z-index: 1;
+
+	header{
+		width: 100%;
+		padding: 0 20px;
+		position: relative;
+		height: 50px;
 	}
 
+	.dashboard--editor{
+		display: flex;
+		flex-flow: row nowrap;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		overflow-x: hidden;
 
-	
+		.section-slice{
+			width: 50vw;
+			height: 100%;
+			padding: 20px;
+			text-align: center;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-around;
+			align-items: center;
+
+			select{
+				padding: 8px;
+				width: 80%;
+			}
+
+			.field{
+				margin: 10px auto;
+				width: 80%;
+				padding: 10px;
+				font-size: 1em;
+				border: 1px solid black;
+			}
+		}
+	}
 }

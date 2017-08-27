@@ -1,7 +1,11 @@
 $(document).ready(() => {
 	const app = firebase.auth();
-	const source = $('#template').html();
-	const template = Handlebars.compile(source);
+	const data = {
+		user: null,
+		loggedIn: false,
+		sectionWork: false,
+		sectionDetail: false,
+	};
 
 	/**
 	 * authenticates user for firebase access
@@ -17,9 +21,17 @@ $(document).ready(() => {
 			})
 			.then((user) => {
 				if (user) {
-					app.onAuthStateChanged((user) => {
-
+					// signed in
+					console.log('scucess');
+					app.onAuthStateChanged((u) => {
+						data.loggedIn = true;
+						data.user = u;
+						$('#login-form').hide();
+						console.log(data);
 					});
+				} else {
+					// signed out
+					data.loggedIn = false;
 				}
 			});
 	};
