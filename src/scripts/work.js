@@ -12,9 +12,11 @@ const btnProactive = $('.btn--proactive');
 const gridHolder = $('.grid-holder');
 
 // initialise lazy loading
-let myLazyLoad;
+let myLazyLoad ;
 
 let timer = null;
+
+const slideMap = []; // holds id reference for divs with slideshow
 
 
 const calcRequiredExtra = function calcRequiredExtraFunc(available) {
@@ -53,12 +55,12 @@ const endSlideShow = function endSlideShowFunc() {
 };
 
 
-const addHoverToCards = function addHoverToCardsFunc() {
-	$('.project-image').on('mouseenter', slideShow);
-	$('.project-image').on('mouseleave', endSlideShow);
-};
-
-
+function addHoverToCards() {
+	slideMap.forEach((slideDiv) => {
+		$(`#${slideDiv}`).on('mouseenter', slideShow);
+		$(`#${slideDiv}`).on('mouseleave', endSlideShow);
+	});
+}
 /**
  * takes in response from firebase database
  * and construct the grid showcase of the work done
@@ -70,7 +72,6 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 	gridData.forEach((data, index) => {
 		try {
 			const card = $(`<a href=${data.link}></a>`).addClass('grid--cell card');
-			// let card = $('').addClass('');
 
 			const imgSlot = ($("<div class='project-image'></div>").attr('id', gridType + index));
 
@@ -79,6 +80,7 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 				data.slide.forEach((sl) => {
 					imgSlot.append($(`<img src=${sl}>`).hide());
 				});
+				slideMap.push(gridType + index);
 			}
 			card.append(imgSlot);
 			card.append($(`<div><h3>${data.title}</h3><p>${data.tag}</p></div>`).addClass('project-desc'));
@@ -89,7 +91,7 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 		}
 	});
 
-	for (let i = 0; i < dummyPanes; i++) {
+	for (let i = 0; i < dummyPanes; i += 1) {
 		const newGridElement = $('<div></div>').addClass('grid--cell empty-cell');
 		addToGrid(gridType, newGridElement);
 	}
@@ -125,16 +127,12 @@ const beginShowcase = function beginShowcaseFunc() {
 btnClient.on('click', () => {
 	btnClient.addClass('active');
 	btnProactive.removeClass('active');
-	// proGrid.addClass('hide');
-	// clientGrid.removeClass('hide');
 	gridHolder.removeClass('slide');
 });
 
 btnProactive.on('click', () => {
 	btnClient.removeClass('active');
 	btnProactive.addClass('active');
-	// clientGrid.addClass('hide');
-	// proGrid.removeClass('hide');
 	gridHolder.addClass('slide');
 });
 

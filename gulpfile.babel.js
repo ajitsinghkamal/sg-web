@@ -10,10 +10,12 @@ const gulp = require('gulp');
 const map = require('gulp-sourcemaps');
 const tap = require('gulp-tap');
 const rename = require('gulp-rename');
+const uglify = require('gulp-uglify');
 
 // =================== Browserify =====================
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
+const buffer = require('gulp-buffer');
 
 // =================== Server ========================= 
 const superstatic = require('superstatic');
@@ -67,9 +69,13 @@ gulp.task('compile', () => {
 		.pipe(tap((file) => {
 			file.contents = browserify(file.path, { debug: true })
 				.external(vendors)
-				.transform('babelify', { presets: ['babili'] })
+				.transform('babelify')
 				.bundle();
 		}))
+		.pipe(buffer())
+		.pipe(map.init())
+		.pipe(uglify())
+		.pipe(map.write('./maps'))
 		.pipe(rename({ extname: '.bundle.js' }))
 		.pipe(gulp.dest('public/scripts'));
 });
@@ -86,6 +92,8 @@ gulp.task('vendor', () => {
 
 	bv.bundle()
 		.pipe(source('vendor.js'))
+		.pipe(buffer())
+		.pipe(uglify())
 		.pipe(gulp.dest('public/scripts'));
 });
 /**

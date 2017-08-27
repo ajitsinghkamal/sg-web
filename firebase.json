@@ -24,11 +24,20 @@
         ]
       },
       {
-        "source": "./public/*.js",
+        "source": "./public/scripts/*.bundle.js",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "max-age=300"
+          }
+        ]
+      },
+      {
+        "source": "./public/scripts/vendor.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=7200"
           }
         ]
       }

@@ -1,4 +1,3 @@
-@import url(normalize.css);
 @import url(colors.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
 
@@ -26,14 +25,9 @@ body{
 }
 
 a,
-a:hover,
-a:focus{
+a:hover{
 	text-decoration: none;
 	color: inherit;
-}
-
-button:focus{
-    outline: 0;
 }
 
 .container{

@@ -1,5 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import $ from 'jquery';
+import * as firebase from 'firebase/app';
+
 
 export function classShuffleUtil(element, classToAdd, classToRemove) {
 	if (typeof element === 'string' || element instanceof String) {
@@ -10,3 +12,27 @@ export function classShuffleUtil(element, classToAdd, classToRemove) {
 		});
 	}
 }
+
+export function firebaseDb() {
+	const fire = firebase.initializeApp({
+		apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
+		authDomain: 'sudeepgandhiweb.firebaseapp.com',
+		databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
+		projectId: 'sudeepgandhiweb',
+	});
+
+	const fireDatabase = fire.database();
+
+	// write to database
+	const writeToDb = function writeToDbUtil(path, valueObj) {
+		fireDatabase.ref().set(valueObj);
+	};
+
+	// read from database
+	const ReadFromDb = function ReadFromDbUtil(path) {
+		firebase.database().ref(path).once('value').then((snapshot) => {
+			// something
+		});
+	};
+}
+
