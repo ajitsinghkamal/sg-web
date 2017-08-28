@@ -1,0 +1,540 @@
+{	
+	"client": {
+		"p1": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ 
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470250/cw/rusty/RR.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503468242/cw/catchy/CatchyMotions.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470289/cw/nads/NS.png" 
+			],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p2": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469954/cw/brahmabodhi/Brahmabodhi.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ 
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470250/cw/rusty/RR.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470289/cw/nads/NS.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470250/cw/rusty/RR.png" 
+			],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+
+		},
+		"p3" : {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503468242/cw/catchy/CatchyMotions.png",
+			"thumb_link" : "",
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p4": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470028/cw/indraneel/IS.png",
+			"thumb_link" : "",
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p5": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470289/cw/nads/NS.png",
+			"thumb_link" : "",
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p6" : {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503471097/cw/ask/ASK.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p7": {
+			"thumb_image" : "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrics.png?alt=media&token=c96a10c1-7932-4bee-840c-4cb7f9026a87https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrics.png?alt=media&token=c96a10c1-7932-4bee-840c-4cb7f9026a87",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p8": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p9" : {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p10": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p11": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p12" : {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p13": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p14": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		}
+
+	},
+
+	"pro": {
+		"p1":{
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]
+		},
+		"p2":{
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]					
+		},
+		"p3": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]				
+		},
+		"p4": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]				
+		},
+		"p5": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]					
+		},
+		"p6": {
+			"thumb_image" : "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503469695/cw/aubergina/aubergina.png",
+			"thumb_link" : "",
+			"thumb_slide" : [ "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FIS.png?alt=media&token=bd7ce871-c82b-4a4b-8ec8-7dec93cb9fb4", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FCatchy%20Motions.png?alt=media&token=d1bf9cd3-431e-4bb9-bf31-60cc9949b338", "https://firebasestorage.googleapis.com/v0/b/sudeepgandhiweb.appspot.com/o/client_work%2FBrahmabodhi.png?alt=media&token=c179a86c-2abe-4ae0-9009-412d6720febd" ],
+			"thumb_tag" : "Experimental Hand Lettering",
+			"thumb_title" : "DMA Asia Echo Awards 2015",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470004/cw/indraneel/IS_TopLogo.png",
+			"desc_heading" : "Identity Design & Branding for Indraneel Shelar",
+			"dec_intro" : "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
+			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
+			"desc_orientation":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470017/cw/indraneel/IS_voGuidelinescombined.png" ,
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470013/cw/indraneel/IS_hoGuidelinescombined.png"
+			],
+			"desc_elements":[
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470003/cw/indraneel/IS_Initialsicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470006/cw/indraneel/IS_Journeyicon.png",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470014/cw/indraneel/IS_CameraFocusicon.png",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470010/cw/indraneel/IS_FramedArtworkicon.png"
+			],
+			"desc_mocks":[
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/v1503470064/cw/indraneel/IS_Mock_1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470084/cw/indraneel/IS_Mock_2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1503470087/cw/indraneel/IS_Mock_3.jpg"
+			]					
+		}
+	}
+
+}
