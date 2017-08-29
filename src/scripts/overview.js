@@ -22,7 +22,7 @@ $.get(APItoHit, (response) => {
 	console.log(response);
 })
 	.done((response) => {
-		const data = response.indraneel;
+		const data = response.brahmabodhi;
 		$('#content-placeholder').html(template(data));
 	})
 	.fail((error) => {
