@@ -6,7 +6,6 @@ LocalStorage/
 node_modules/
 User/
 Preferences/
-public/
 Cookies
 Cookies-journal
 Local Storage/

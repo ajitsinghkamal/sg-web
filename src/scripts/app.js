@@ -13,26 +13,26 @@ export function classShuffleUtil(element, classToAdd, classToRemove) {
 	}
 }
 
-export function firebaseDb() {
-	const fire = firebase.initializeApp({
-		apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
-		authDomain: 'sudeepgandhiweb.firebaseapp.com',
-		databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
-		projectId: 'sudeepgandhiweb',
-	});
+// export class firebaseDb {
+// 	fire = firebase.initializeApp({
+// 		apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
+// 		authDomain: 'sudeepgandhiweb.firebaseapp.com',
+// 		databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
+// 		projectId: 'sudeepgandhiweb',
+// 	});
 
-	const fireDatabase = fire.database();
+// 	fireDatabase = fire.database();
 
-	// write to database
-	const writeToDb = function writeToDbUtil(path, valueObj) {
-		fireDatabase.ref().set(valueObj);
-	};
+// 	// write to database
+// 	const writeToDb = function writeToDbUtil(path, valueObj) {
+// 		fireDatabase.ref().set(valueObj);
+// 	};
 
-	// read from database
-	const ReadFromDb = function ReadFromDbUtil(path) {
-		firebase.database().ref(path).once('value').then((snapshot) => {
-			// something
-		});
-	};
-}
+// 	// read from database
+// 	const ReadFromDb = function ReadFromDbUtil(path) {
+// 		firebase.database().ref(path).once('value').then((snapshot) => {
+// 			// something
+// 		});
+// 	};
+// }
 

@@ -1,30 +1,66 @@
+import $ from 'jquery';
+import Handlebars from 'handlebars';
+
+import * as firebase from 'firebase/app';
+import 'firebase/database';
+
+// Initialise firebase
+const fire = firebase.initializeApp({
+	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
+	authDomain: 'sudeepgandhiweb.firebaseapp.com',
+	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
+	projectId: 'sudeepgandhiweb',
+});
+
+const db = fire.database();
+
+
 const source = $('#template').html();
 const template = Handlebars.compile(source);
 
-let APItoHit = 'https://sudeepgandhiweb.firebaseio.com/descriptions.json';
+const APItoHit = 'https://sudeepgandhiweb.firebaseio.com/.json';
 
-const getUrlParameter = function getUrlParameter(sParam) {
-	const sPageURL = decodeURIComponent(window.location.search.substring(1));
-	const sURLVariables = sPageURL.split('&');
-	let sParameterName;
+function getUrlParameter(paramToGet) {
+	const qString = decodeURIComponent(window.location.search.substring(1));
+	const urlVariables = qString.split('&');
+	let paramName;
+	for (let i = 0; i < urlVariables.length; i += 1) {
+		paramName = urlVariables[i].split('=');
 
-	for (let i = 0; i < sURLVariables.length; i += 1) {
-		sParameterName = sURLVariables[i].split('=');
-
-		if (sParameterName[0] === sParam) {
-			return sParameterName[1] === undefined ? true : sParameterName[1];
+		if (paramName[0] === paramToGet) {
+			return paramName[1] === undefined ? true : paramName[1];
 		}
 	}
-};
+	return undefined;
+}
 
 
-$.get(APItoHit, (response) => {
-	console.log(response);
-})
-	.done((response) => {
-		const data = response.brahmabodhi;
-		$('#content-placeholder').html(template(data));
-	})
-	.fail((error) => {
-		console.error(error.message);
+function initPageContent() {
+	const key = getUrlParameter('work');
+
+	db.ref('/').once('value').then((snapshot) => {
+		if (snapshot.child(`client/${key}`).exists()) {
+			const data = snapshot.child(`client/${key}`).val();
+			$('#content-placeholder').html(template(data));
+		} else if (snapshot.child(`pro/${key}`).exists()) {
+			const data = snapshot.child(`pro/${key}`).val();
+			$('#content-placeholder').html(template(data));
+		} else {
+			window.location.href = '404.html';
+		}
 	});
+}
+
+initPageContent();
+
+// $.get(APItoHit, (response) => {
+// 	console.log(response);
+// })
+// 	.done((response) => {
+// 		const data = response;
+		
+// 	})
+// 	.fail((error) => {
+// 		console.error(error.message);
+// 	});
+

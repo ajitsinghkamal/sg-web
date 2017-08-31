@@ -23,60 +23,62 @@
 				<button class="login--btn" type="submit">login</button>
 			</form>
 		</section>
-		<div class="dashboard page-section">
+		<div class="dashboard page-section hide">
 			<header>
 				<p>dashboard</p>
+				<button class="signout-btn"> sign out</button>
 			</header>
 
 			<main class="dashboard--editor">
 				<section class="editor section-slice">
-					<select name="projectType">
+					<select class="select-type">
 						<option disabled>project type</option>
-						<option>client work</option>
-						<option>proactive work</option>
+						<option value="client">client work</option>
+						<option value="pro">proactive work</option>
 			  		</select>
 					<form>
-						<fieldset class="page-content">
+						<fieldset class="page-content data-gallery">
+							<input class="field" type="text" placeholder="name">
 							<input class="field" type="text" placeholder="image">
-							<button>add slides</button>
-							<input class="field" type="text" placeholder="link">
 							<input class="field" type="text" placeholder="tag">
 							<input class="field" type="text" placeholder="title">
+							<div class = "slide-input">
+							</div>
+							<button type="button">add slides</button>
 						</fieldset>
-						<fieldset class="page-content">
+						<fieldset class="page-content data-overview">
 							<input class="field" type="text" placeholder="logo">
 							<input class="field" type="text" placeholder="heading">
 							<input class="field" type="text" placeholder="intro">
-							<input class="field" type="text" placeholder="mocks">
 							<input class="field" type="text" placeholder="notes">
+							<div class="add-input mock-input">
+								<input class="field" type="text" placeholder="mocks">
+							</div>
+							<button type="button" id="mock-btn">add mocks</button>
+							<div class="add-input or-input">
 							<input class="field" type="text" placeholder="orientation">
+							</div>
+							<button type="button" id="or-btn">add orientation</button>
+							<div class="add-input el-input">
 							<input class="field" type="text" placeholder="elements">
+							</div>
+							<button type="button" id="el-btn">add elements</button>
+							
 						</fieldset>
+							<button class="submit-btn btn--overview">Add to Overview page</button>
 					</form>
 				</section>
 
 				<section class="export section-slice">
+
 
 				</section>
 			</main>
 		</div>
 
 	</div>
-
-
-	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
-	<script>
-		var config = {
-			apiKey: "AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE",
-			authDomain: "sudeepgandhiweb.firebaseapp.com",
-			databaseURL: "https://sudeepgandhiweb.firebaseio.com",
-			projectId: "sudeepgandhiweb",
-		};
-		firebase.initializeApp(config);
-	</script>
-	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-	<script defer src="admin.js"></script>
+	<script defer src="scripts/vendor.js"></script>
+	<script defer src="scripts/admin.bundle.js"></script>
 </body>
 
 </html>

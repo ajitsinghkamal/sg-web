@@ -2,7 +2,7 @@ import $ from 'jquery';
 import LazyLoad from 'vanilla-lazyload';
 
 // Constants declaration
-const API = 'https://sudeepgandhiweb.firebaseio.com/showcase.json'; // database path
+const API = 'https://sudeepgandhiweb.firebaseio.com/.json'; // database path
 
 // DOM references
 const clientGrid = $('.grid--client');
@@ -27,7 +27,7 @@ const calcRequiredExtra = function calcRequiredExtraFunc(available) {
 };
 
 const addToGrid = function addToGridFunc(grid, cell) {
-	if (grid === 'clientWork') {
+	if (grid === 'client') {
 		clientGrid.append(cell);
 	} else {
 		proGrid.append(cell);
@@ -68,28 +68,30 @@ function addHoverToCards() {
  * @param {object} data 
  */
 const constructGrid = function constructGridFunc(gridData, gridType) {
-	const dummyPanes = calcRequiredExtra(gridData.length);
-	gridData.forEach((data, index) => {
+	let gridLength = 0;
+	Object.keys(gridData).forEach((data, index) => {
 		try {
-			const card = $(`<a href=${data.link}></a>`).addClass('grid--cell card');
+			const card = $(`<a href=overview?work=${data}></a>`).addClass('grid--cell card');
 
 			const imgSlot = ($("<div class='project-image'></div>").attr('id', gridType + index));
 
-			imgSlot.append($(`<img data-original=${data.image}></div>`).addClass('lazyload'));
-			if (data.slide) {
-				data.slide.forEach((sl) => {
+			imgSlot.append($(`<img data-original=${gridData[data].thumb_image}></div>`).addClass('lazyload'));
+			if (gridData[data].thumb_slide) {
+				gridData[data].thumb_slide.forEach((sl) => {
 					imgSlot.append($(`<img src=${sl}>`).hide());
 				});
 				slideMap.push(gridType + index);
 			}
 			card.append(imgSlot);
-			card.append($(`<div><h3>${data.title}</h3><p>${data.tag}</p></div>`).addClass('project-desc'));
+			card.append($(`<div><h3>${gridData[data].thumb_title}</h3><p>${gridData[data].thumb_tag}</p></div>`).addClass('project-desc'));
 
 			addToGrid(gridType, card, index);
+			gridLength += 1;
 		} catch (error) {
 			console.error(error.message);
 		}
 	});
+	const dummyPanes = calcRequiredExtra(gridLength);
 
 	for (let i = 0; i < dummyPanes; i += 1) {
 		const newGridElement = $('<div></div>').addClass('grid--cell empty-cell');

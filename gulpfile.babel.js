@@ -72,10 +72,10 @@ gulp.task('compile', () => {
 				.transform('babelify')
 				.bundle();
 		}))
-		.pipe(buffer())
-		.pipe(map.init())
-		.pipe(uglify())
-		.pipe(map.write('./maps'))
+		// .pipe(buffer())
+		// .pipe(map.init())
+		// // .pipe(uglify())
+		// .pipe(map.write('./maps'))
 		.pipe(rename({ extname: '.bundle.js' }))
 		.pipe(gulp.dest('public/scripts'));
 });

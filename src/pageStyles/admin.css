@@ -9,6 +9,10 @@
 				outline:0;
 			}
 	}
+
+	.hide{
+		display: none;
+	}
 	
 }
 
@@ -29,7 +33,7 @@ form{
 }
 .login{
 	z-index:20;
-	display: none;
+	background-color: white;
 	form{
 		position: relative;
 		transform: translate(-50%,-50%);
@@ -76,8 +80,10 @@ form{
 
 .dashboard{
 	z-index: 1;
-
 	header{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
 		width: 100%;
 		padding: 0 20px;
 		position: relative;
@@ -88,12 +94,12 @@ form{
 		display: flex;
 		flex-flow: row nowrap;
 		// height: 100%;
-		width: 100%;
+		width: 200%;
 		position: relative;
 		overflow-x: hidden;
 
 		.section-slice{
-			width: 50vw;
+			width: 100vw;
 			height: 100%;
 			padding: 20px;
 			text-align: center;

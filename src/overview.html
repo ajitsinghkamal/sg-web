@@ -2,71 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="content-placeholder">
-    <!--[if lt IE 7]>
+	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-    <script id="template" type="text/x-handlebars-template">
-        <div class="overview">
-        	<header class="container header">
-	            <h1 class="main-title">{{title}}</h1>
-	            <div class="logo">
-	                <img class="logo-img" src="{{logo}}">
-	                <p class="info">{{intro}}</p>
-	            </div>
-	        </header>
-	        <main class="information">
-	        	{{#if elements}}
-		            <section class="container key-elements">
-		                <h2 class="info-title">Key elements</h2> 
-		                <div class="elements-image">
-		                	{{#each elements}}
-		                		<img src="{{this}}" alt="elements"> 
-		                	{{/each}}
-		                </div>
-		                <div class="element-logo">
-		                    <img class="logo" src="{{logo}}">
-		                </div>
-		            </section>
-		        {{/if}}
+	<script id="template" type="text/x-handlebars-template">
+		<div class="overview">
+			<header class="container header">
+				<h1 class="main-title">{{desc_heading}}</h1>
+				<div class="logo">
+					<img class="logo-img" src="{{desc_logo}}">
+					<p class="info">{{desc_intro}}</p>
+				</div>
+			</header>
+			<main class="information">
+				{{#if desc_elements}}
+					<section class="container key-elements">
+						<h2 class="info-title">Key elements</h2> 
+						<div class="elements-image">
+							{{#each desc_elements}}
+								<img src="{{this}}" alt="elements"> 
+							{{/each}}
+						</div>
+						<div class="element-logo">
+							<img class="logo" src="{{logo}}">
+						</div>
+					</section>
+				{{/if}}
 
-	        	{{#if note}}
-		            <section class="container concept-note">
-		            	<h2 class="info-title">Concept note</h2>
-		            	<p class="info">{{note}}</p>
-		            </section>
-		        {{/if}}
+				{{#if desc_note}}
+					<section class="container concept-note">
+						<h2 class="info-title">Concept note</h2>
+						<p class="info">{{desc_note}}</p>
+					</section>
+				{{/if}}
 
-	        	{{#if orientation}}
-		            <section class="container orientation">
-		            	<h2 class="info-title">Orientation</h2>
-		            	<div class="orientation-image">
-		            		{{#each orientation}}
-		                		<img src="{{this}}" alt="orientation"> 
-		                	{{/each}}
-		            	</div>
-		            </section>
-		        {{/if}}
+				{{#if desc_orientation}}
+					<section class="container orientation">
+						<h2 class="info-title">Orientation</h2>
+						<div class="orientation-image">
+							{{#each desc_orientation}}
+								<img src="{{this}}" alt="orientation"> 
+							{{/each}}
+						</div>
+					</section>
+				{{/if}}
 
-	            <section class="related-images">
-	            	{{#each mocks}}
-	                		<img src="{{this}}" alt="mocks"> 
-	                {{/each}}
-	            </section>
-	        </main>
-        </div>
-    </script>
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-    <script defer src="scripts/overview.bundle.js"></script>
+				<section class="related-images">
+					{{#each desc_mocks}}
+							<img src="{{this}}" alt="mocks"> 
+					{{/each}}
+				</section>
+			</main>
+		</div>
+	</script>
+	<script defer src="scripts/vendor.js"></script>
+	<script defer src="scripts/overview.bundle.js"></script>
 </body>
 
 </html>
