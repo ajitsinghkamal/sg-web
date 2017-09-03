@@ -12,7 +12,7 @@ html{
 }
 
 *:focus{
-    outline:none;
+	outline:none;
 }
 
 .normalise{
@@ -34,62 +34,82 @@ a:hover{
 	
 	width: 100%;
 	overflow: auto;
-    padding: 0 56px ;
-    
-    nav{
-        align-self: center;  
-    }
+	padding: 0 56px ;
+	
+	nav{
+		align-self: center;  
+	}
 }
 
 .brand-header{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    margin-bottom: 50px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
 
-    .logo{
-        a{
-            display: block;
-        }
+	.logo{
+		a{
+			display: block;
+		}
 
-        img{
-            width:auto;
-            height: 120px;
-            transform: translateY(-10px);
-        }
-    }
+		img{
+			width:auto;
+			height: 120px;
+			transform: translateY(-10px);
+		}
+	}
 }
 
 .navigation{
-    width:330px;
+	width:340px;
 	list-style: none;
 	display: flex;
-    font-size: 14.2px;
-    align-items: center;
+	font-size: 14.2px;
+	align-items: center;
 }
 
 .navigation--site{
-    padding: 15px 0px 35px 0;
-    justify-content: space-between;
+	padding: 15px 0px 35px 0;
+	justify-content: space-between;
 }
 
 
 .navigation--site-links{
-    text-align: center;
-    flex-basis: 85px;
-    transition: background-color 0.6s,color 0.2s;
-    
-    &.current-nav{
-        color: white;
-        background-color: $gold;
+	text-align: center;
+	flex-basis: 100px;
+	transition: background-color 0.6s,color 0.2s;
+	background-image: none ;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 126px;
+	
+	&.current-nav{
+		color: white;
+		background-image: url('./assets/HoverSelect1.png');
 
-        a{
-            display: block;
-            padding: 12px 0;
-        }
-    }
+		a{
+			display: block;
+			padding: 12px 0;
+		}
+	}
 
-    &:not(.current-nav):hover{
-        color: $gold;
-    }
+	&:not(.current-nav):hover{
+		color: $gold;
+	}
+
+	/* &:hover{
+		color: white;
+		// background-color: $gold;
+		background-image: url('./assets/HoverSelect1.png');
+	} */
+
+	a{
+		display: block;
+		padding: 12px 0;
+		
+	}
+
+		
+
 }

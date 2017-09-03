@@ -1,8 +1,9 @@
 .admin-page{
 	height:100vh;
 	font-family: Lato, sans-serif;
+	font-size: 14px;
+	
 	input{
-		display: block;
 		border: none;
 
 			&:focus{
@@ -16,70 +17,137 @@
 
 	button{
 		border: 0px;
+		padding: 10px;
+		cursor: pointer;
 	}
+	
+	form{
+		width: 50%;
+		.input-content{
+			position: relative;
+			margin: 20px 0;
+			
+			
+			label {
+					margin: 10px auto;
+					width: 100%;
+					background-color: #C3E991;
+					text-align: right;
+					box-shadow: 2px 2px 7px 0px #A09C9D;
+					font-size: 12px;
+			}
+
+			.slides-input,
+			.add-input{
+				background-color: #f5f5dc;
+				padding: 8px 25px;
+			}
+
+			.add-input{
+				margin-top: 20px;
+			}
+			
+		}
+
+		.flex-input{
+			display: flex;
+			flex-flow: column nowrap;
+		}
+	}
+
+	.page-section{
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 0;
+		width:100%;
+	}
+
+	.login{
+		z-index:20;
+		background-color: white;
+		
+		#login-form{
+			position: relative;
+			transform: translate(-50%,-50%);
+			top: 50%;
+			left: 50%;
+			width: 400px;
+			border:none;
+		}
+
+		.login--btn{
+			width: 100%;
+			border: none;
+			padding: 12px;
+			margin: 20px 0;
+			cursor: pointer;
+			background: $grey_sixty;
+			color: white;
+		}
+
+		.login--panel{
+				text-align: center;
+				border: 8px solid #e2e2e2;
+				padding: 0 20px;
+				background-color: #faffbd;
+
+				input{
+					margin: 10px auto;
+					padding: 7px;
+					width: 100%;
+					font-weight: 300;
+					background-color: #faffbd;
+
+					&:first-child{
+						margin-bottom: 0;
+					}
+				}
+				hr{
+					border: none;
+					border-bottom: 1px solid black;
+					margin-bottom: 0;
+				}
+		}
+	}
+
+	.signout-btn:hover{
+		background-color:#e15554;
+		color:white;
+	}
+
+	.submit-btn{
+		background-color: #d4af34;
+		width: 100%;
+		padding: 20px;
+		margin-top: 30px;
+	}
+
+	.data-work:before,
+	.data-overview:before{
+		position: absolute;
+		font-size: 8vw;
+		color: rgba(212, 175, 52, 0.4);
+		z-index: -3;
+		transform: rotate(-90deg);
+	}
+
+	.data-work:before{
+		content:'work';
+		left: -12vw;
+		top: 40%;
+	}	
+
+	.data-overview:before{
+		content:'overview';
+		top: 45%;
+		left: -19vw;
+	}
+
 	
 }
 
-form{
-	width: 100%;
-	.page-content{
-		margin: 20px;
-	}
-}
 
-.page-section{
-	position: absolute;
-    height: 100%;
-	top: 0;
-	left: 0;
-	width:100%;
-}
-.login{
-	z-index:20;
-	background-color: white;
-	form{
-		position: relative;
-		transform: translate(-50%,-50%);
-		top: 50%;
-		left: 50%;
-		width: 500px;
-		border:none;
-
-	}
-
-	.login--btn{
-		width: 498px;
-		border: none;
-		padding: 12px;
-		font-size: 1em;
-		margin: 20px 0;
-		cursor: pointer;
-		background: #80A1C1;
-		color: white;
-		border-radius: 8px;
-	}
-}
-
-.panel{
-		text-align: center;
-		border: 8px solid #80A1C1;
-		border-radius: 6px;
-		padding: 0 20px;
-
-		input{
-			display: block;
-			margin: 20px auto;
-			padding: 7px;
-			width: 100%;
-			font-size: 1em;
-			font-weight: 300;
-			letter-spacing: 1px;
-		}
-		hr{
-			border: none;
-			border-bottom: 1px solid black;
-		}
-}
 
 .dashboard{
 	z-index: 1;
@@ -87,17 +155,32 @@ form{
 	header{
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: space-between;
+		justify-content:flex-end;
 		width: 100%;
-		padding: 0 20px;
+		padding: 0 30px;
 		position: relative;
-		height: 50px;
+		height: 65px;
 		align-items: center;
+
+		button{
+			transition: background-color 0.3s;
+			margin:0 14px;
+			background-color:transparent;
+			&:not(:last-child):hover{
+				background-color: $gold;
+				color:white;
+			}
+		}
+
+		p{
+			margin-right:auto;
+		}
 	}
 
 	.dashboard--editor{
 		width:100%;
 		overflow-x: hidden;
+		margin-top: 25px;
 		.editor-container{
 			display: flex;
 			flex-flow: row nowrap;
@@ -118,15 +201,13 @@ form{
 
 				select{
 					padding: 8px;
-					width: 80%;
+					width: 50%;
 				}
 
 				.field{
-					margin: 10px auto;
 					width: 80%;
 					padding: 10px;
-					font-size: 1em;
-					border: 1px solid black;
+					margin-left:10px;
 				}
 			}
 		}

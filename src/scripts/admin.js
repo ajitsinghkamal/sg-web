@@ -156,20 +156,20 @@ $('.signout-btn').on('click', () => {
 	auth.signOut();
 });
 
-$('.data-gallery button').on('click', () => {
-	$('.slide-input').append('<input type="text" class="field" placeholder="slide">');
+$('.slides-input--btn').on('click', () => {
+	$('.slides-input').append('<label>Slide<input type="text" class="field" placeholder="image for slideshow thumbnail"></label>');
 });
 
 $('#mock-btn').on('click', () => {
-	$('.mock-input').append('<input type="text" class="field" placeholder="mocks">');
+	$('.mock-input').append('<label>Work mocks<input type="text" class="field" placeholder="mocks"></label>');
 });
 
 $('#or-btn').on('click', () => {
-	$('.or-input').append('<input class="field" type="text" placeholder="orientation">');
+	$('.or-input').append('<label>Orientaion<input class="field" type="text" placeholder="orientation"></label>');
 });
 
 $('#el-btn').on('click', () => {
-	$('.el-input').append('<input class="field" type="text" placeholder="elements">');
+	$('.el-input').append('<label>Elements<input class="field" type="text" placeholder="elements"></label>');
 });
 
 $('.submit-btn').on('click', (e) => {
@@ -180,9 +180,8 @@ $('.submit-btn').on('click', (e) => {
 	const elements = $('.el-input input[type=text]');
 
 	data.type = $('.select-type option:selected').val();	// get value for type of work selected
-	$('fieldset.data-gallery input[type=text]').each(setDataGallery);	// get values for data for gallery page
+	$('fieldset.input-content input[type=text]').each(setDataGallery);	// get values for data for gallery page
 	$('fieldset.data-overview > input[type=text]').each(setOverviewData);	// get values for data for work page
-	debugger;
 	if ($(mocks).first().val()) {
 		detailsData.desc_mocks = [];
 		mocks.each(function () {

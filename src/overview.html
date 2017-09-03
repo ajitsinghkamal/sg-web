@@ -10,60 +10,71 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body id="content-placeholder">
+<body class="normalise">
 	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-	<script id="template" type="text/x-handlebars-template">
-		<div class="overview">
-			<header class="container header">
-				<h1 class="main-title">{{desc_heading}}</h1>
-				<div class="logo">
-					<img class="logo-img" src="{{desc_logo}}">
-					<p class="info">{{desc_intro}}</p>
-				</div>
-			</header>
-			<main class="information">
-				{{#if desc_elements}}
+	<header class="brand-header">
+		<div class="logo" role="img">
+			<a href="index.html">
+                        <img src="assets/BrandLogo1.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
+                    </a>
+		</div>
+		<nav>
+			<ul role="menubar" class="normalise [ navigation navigation--site ]">
+				<li class="navigation--site-links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
+
+				<li class="navigation--site-links current-nav"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
+
+				<li class="navigation--site-links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content-placeholder">
+		<script id="template" type="text/x-handlebars-template">
+			<div class="overview">
+				<header class="container header">
+					<h1 class="main-title">{{desc_heading}}</h1>
+					<div class="logo">
+						<img class="logo-img" src="{{desc_logo}}">
+						<p class="info">{{desc_intro}}</p>
+					</div>
+				</header>
+				<main class="information">
+					{{#if desc_elements}}
 					<section class="container key-elements">
-						<h2 class="info-title">Key elements</h2> 
+						<h2 class="info-title">Key elements</h2>
 						<div class="elements-image">
 							{{#each desc_elements}}
-								<img src="{{this}}" alt="elements"> 
-							{{/each}}
+							<img src="{{this}}" alt="elements"> {{/each}}
 						</div>
 						<div class="element-logo">
 							<img class="logo" src="{{logo}}">
 						</div>
 					</section>
-				{{/if}}
-
-				{{#if desc_note}}
+					{{/if}} {{#if desc_note}}
 					<section class="container concept-note">
 						<h2 class="info-title">Concept note</h2>
 						<p class="info">{{desc_note}}</p>
 					</section>
-				{{/if}}
-
-				{{#if desc_orientation}}
+					{{/if}} {{#if desc_orientation}}
 					<section class="container orientation">
 						<h2 class="info-title">Orientation</h2>
 						<div class="orientation-image">
 							{{#each desc_orientation}}
-								<img src="{{this}}" alt="orientation"> 
-							{{/each}}
+							<img src="{{this}}" alt="orientation"> {{/each}}
 						</div>
 					</section>
-				{{/if}}
+					{{/if}}
 
-				<section class="related-images">
-					{{#each desc_mocks}}
-							<img src="{{this}}" alt="mocks"> 
-					{{/each}}
-				</section>
-			</main>
-		</div>
-	</script>
+					<section class="related-images">
+						{{#each desc_mocks}}
+						<img src="{{this}}" alt="mocks"> {{/each}}
+					</section>
+				</main>
+			</div>
+		</script>
+	</div>
 	<script defer src="scripts/vendor.js"></script>
 	<script defer src="scripts/overview.bundle.js"></script>
 </body>

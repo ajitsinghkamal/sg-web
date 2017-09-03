@@ -15,18 +15,21 @@
 	<div class="container admin-page">
 		<section class="login page-section">
 			<form id="login-form">
-				<fieldset class="panel">
+				<fieldset class="login--panel">
 					<input type="text" id="email" placeholder="email">
 					<hr>
 					<input type="password" id="password" placeholder="password">
 				</fieldset>
-				<button class="login--btn" type="submit">login</button>
+				<button class="login--btn" type="submit">LOGIN</button>
 			</form>
 		</section>
 		<div class="dashboard page-section hide">
 			<header>
-				<p>dashboard</p>
-				<button class="signout-btn"> sign out</button>
+				<p>Dashboard</p>
+				<button>Create new</button>
+				<button>Update</button>
+				<button>Remove</button>
+				<button class="signout-btn">LOG OUT</button>
 			</header>
 
 			<main class="dashboard--editor">
@@ -38,34 +41,57 @@
 						<option value="pro">proactive work</option>
 			  		</select>
 					<form>
-						<fieldset class="page-content data-gallery">
-							<input class="field" type="text" placeholder="name">
-							<input class="field" type="text" placeholder="image">
-							<input class="field" type="text" placeholder="tag">
-							<input class="field" type="text" placeholder="title">
-							<div class = "slide-input">
+						<div class="input-content data-work flex-input">
+								<label for="data-name">Name
+									<input required name="data-name" class="field" type="text" placeholder="unique identifier for project">
+								</label>
+								<label for="data-image">Image
+									<input required name="data-image" class="field" type="text" placeholder="thumbnail for gallery page">
+								</label>
+								<label for="data-title">Title
+									<input required name="data-title" class="field" type="text" placeholder="project title">
+								</label>
+								<label for="data-tag">Tag
+									<input required name="data-tag" class="field" type="text" placeholder="category of work">
+								</label>
+							
+							<div class = "slides-input flex-input">
 							</div>
-							<button type="button">add slides</button>
-						</fieldset>
-						<fieldset class="page-content data-overview">
-							<input class="field" type="text" placeholder="logo">
-							<input class="field" type="text" placeholder="heading">
-							<input class="field" type="text" placeholder="intro">
-							<input class="field" type="text" placeholder="notes">
-							<div class="add-input mock-input">
-								<input class="field" type="text" placeholder="mocks">
+							<button type="button" class="slides-input--btn">add slides</button>
+						</div>
+						<div class="input-content data-overview flex-input">
+							<label for="data-logo">Logo 
+								<input required name="data-logo" class="field" type="text" placeholder="logo of the client or project">
+							</label>
+							<label for="data-heading">Heading
+								<input required name="data-heading" class="field" type="text" placeholder="heading for the overview page">
+							</label>
+							<label for="data-intro">Intro
+								<input required name="data-intro" class="field" type="text" placeholder="Brief about the work">
+							</label>
+							<label for="data-notes">Concept
+								<input name="data-notes" class="field" type="text" placeholder="concept overview">
+							</label>
+							<div class="add-input mock-input flex-input">
+								<label for="data-mocks">Work mocks
+									<input required name="data-mocks" class="field" type="text" placeholder="mocks">
+								</label>
 							</div>
 							<button type="button" id="mock-btn">add mocks</button>
-							<div class="add-input or-input">
-							<input class="field" type="text" placeholder="orientation">
+							<div class="add-input or-input flex-input">
+								<label for="data-orientation">Orientation
+									<input class="field" name="data-orientation" type="text" placeholder="orientation">
+								</label>
 							</div>
 							<button type="button" id="or-btn">add orientation</button>
-							<div class="add-input el-input">
-							<input class="field" type="text" placeholder="elements">
+							<div class="add-input el-input flex-input">
+								<label for="data-elements">Elements
+									<input class="field" name="data-elements" type="text" placeholder="elements">
+								</label>
 							</div>
 							<button type="button" id="el-btn">add elements</button>
 							
-						</fieldset>
+						</div>
 							<button class="submit-btn btn--overview">Add to Overview page</button>
 					</form>
 				</section>

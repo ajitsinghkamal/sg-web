@@ -64,13 +64,6 @@
 	 
 	.navigation--site-links{
 
-		background-image: none ;
-		background-origin: border-box;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 110px;
-		transition: background 0.3s;
-
 		&:hover{
 			color: white;
 			// background-color: $gold;
