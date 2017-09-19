@@ -14,11 +14,8 @@ const fire = firebase.initializeApp({
 
 const db = fire.database();
 
-
 const source = $('#template').html();
 const template = Handlebars.compile(source);
-
-const APItoHit = 'https://sudeepgandhiweb.firebaseio.com/.json';
 
 function getUrlParameter(paramToGet) {
 	const qString = decodeURIComponent(window.location.search.substring(1));
@@ -52,15 +49,4 @@ function initPageContent() {
 }
 
 initPageContent();
-
-// $.get(APItoHit, (response) => {
-// 	console.log(response);
-// })
-// 	.done((response) => {
-// 		const data = response;
-		
-// 	})
-// 	.fail((error) => {
-// 		console.error(error.message);
-// 	});
 

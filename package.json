@@ -8,6 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^14.4.0",
+    "critical": "^0.9.1",
     "firebase": "^4.3.0",
     "handlebars": "^4.0.10",
     "jquery": "^3.2.1",

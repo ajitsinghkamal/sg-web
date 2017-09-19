@@ -1,9 +1,9 @@
 
-.brand{
+.banner{
 	position: relative;
 	flex-grow: 2;
 
-	.brush-stroke{
+	.banner__brush{
 		position: relative;
 		height: 75vh ;
 		transform:translateY(-75vh);
@@ -20,11 +20,11 @@
 		filter: blur(1px);
 	}
 
-	.brush-art{
+	.banner__brush--art{
 		animation: paint 1.8s cubic-bezier(0.69, 0.13, 0.21, 0.91) forwards;
 	}
 
-	.brand-logo{
+	.banner__logo{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -62,31 +62,37 @@
 		transition: opacity 1.6s linear 0.7s;
 	}
 	 
-	.navigation--site-links{
+	.navigation-site__links{
 
 		&:hover{
 			color: white;
-			// background-color: $gold;
 			background-image: url('./assets/HoverSelect1.png');
 		}
 
 		a{
 			display: block;
 			padding: 12px 0;
-			
 		}
 	}
+
+	.cover-page--reveal{
+	opacity: 1;
+}
+
+.cover-page--hide{
+	opacity: 0;
+}
 }
 
 
-.navigation--social{
+.navigation-social{
 	justify-content:center;
 
 	li:not(:last-child){
 		padding-right:27px;
 	}
 
-	.social-icon{
+	.navigation-social__icon{
 		width:30px;
 		height:30px;
 	} 
@@ -103,10 +109,3 @@
 	}
 }
 
-.reveal{
-	opacity: 1;
-}
-
-.hide{
-	opacity: 0;
-}

@@ -24,8 +24,9 @@ const browserSync = require('browser-sync').create();
 // ================== Dev =============================
 const postcss = require('gulp-postcss');
 const htmlmin = require('gulp-htmlmin');
+const critical = require('critical').stream;
 
-const vendors = ['jquery', 'slick-carousel', 'handlebars', 'vanilla-lazyload'];
+const vendors = ['jquery', 'firebase', 'slick-carousel', 'handlebars', 'vanilla-lazyload'];
 
 
 /**
@@ -135,3 +136,4 @@ gulp.task('serve', () => {
  * assign default task to run on gulp
  */
 gulp.task('default', ['html', 'css', 'vendor', 'compile', 'serve']);
+

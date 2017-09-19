@@ -122,29 +122,10 @@
 		padding: 20px;
 		margin-top: 30px;
 	}
-
-	.data-work:before,
-	.data-overview:before{
-		position: absolute;
-		font-size: 8vw;
-		color: rgba(212, 175, 52, 0.4);
-		z-index: -3;
-		transform: rotate(-90deg);
-	}
-
-	.data-work:before{
-		content:'work';
-		left: -12vw;
-		top: 40%;
-	}	
-
-	.data-overview:before{
-		content:'overview';
-		top: 45%;
-		left: -19vw;
-	}
-
 	
+}
+.project-list{
+	display:none;
 }
 
 
@@ -167,8 +148,15 @@
 			margin:0 14px;
 			background-color:transparent;
 			&:not(:last-child):hover{
+				color:$gold;
+			}
+
+			&.active{
 				background-color: $gold;
 				color:white;
+				&:hover {
+					color:white;
+				}
 			}
 		}
 
@@ -205,7 +193,7 @@
 				}
 
 				.field{
-					width: 80%;
+					width: 75%;
 					padding: 10px;
 					margin-left:10px;
 				}

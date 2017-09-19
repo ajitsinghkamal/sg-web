@@ -1,14 +1,28 @@
 import $ from 'jquery';
+
+import * as firebase from 'firebase/app';
+import 'firebase/database';
+
 import LazyLoad from 'vanilla-lazyload';
 
 // Constants declaration
 const API = 'https://sudeepgandhiweb.firebaseio.com/.json'; // database path
 
+const fire = firebase.initializeApp({
+	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
+	authDomain: 'sudeepgandhiweb.firebaseapp.com',
+	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
+	projectId: 'sudeepgandhiweb',
+});
+
+const db = fire.database();
+
+
 // DOM references
-const clientGrid = $('.grid--client');
-const proGrid = $('.grid--proactive');
-const btnClient = $('.btn--client');
-const btnProactive = $('.btn--proactive');
+const clientGrid = $('.grid__client');
+const proGrid = $('.grid__proactive');
+const btnClient = $('.gallery__btn-client');
+const btnProactive = $('.gallery__btn-proactive');
 const gridHolder = $('.grid-holder');
 
 // initialise lazy loading
@@ -71,9 +85,9 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 	let gridLength = 0;
 	Object.keys(gridData).forEach((data, index) => {
 		try {
-			const card = $(`<a href=overview?work=${data}></a>`).addClass('grid--cell card');
+			const card = $(`<a href=overview?work=${data}></a>`).addClass('grid-cell card');
 
-			const imgSlot = ($("<div class='project-image'></div>").attr('id', gridType + index));
+			const imgSlot = ($("<div class='card__image'></div>").attr('id', gridType + index));
 
 			imgSlot.append($(`<img data-original=${gridData[data].thumb_image}></div>`).addClass('lazyload'));
 			if (gridData[data].thumb_slide) {
@@ -83,7 +97,7 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 				slideMap.push(gridType + index);
 			}
 			card.append(imgSlot);
-			card.append($(`<div><h3>${gridData[data].thumb_title}</h3><p>${gridData[data].thumb_tag}</p></div>`).addClass('project-desc'));
+			card.append($(`<div><h3>${gridData[data].thumb_title}</h3><p>${gridData[data].thumb_tag}</p></div>`).addClass('card__desc'));
 
 			addToGrid(gridType, card, index);
 			gridLength += 1;
@@ -94,10 +108,22 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 	const dummyPanes = calcRequiredExtra(gridLength);
 
 	for (let i = 0; i < dummyPanes; i += 1) {
-		const newGridElement = $('<div></div>').addClass('grid--cell empty-cell');
+		const newGridElement = $('<div></div>').addClass('grid-cell grid-cell--empty');
 		addToGrid(gridType, newGridElement);
 	}
 };
+
+db.ref().once('value').then((snapshot) => {
+	const clientWorkList = snapshot.child('client').val();
+	constructGrid(clientWorkList, 'client');
+	const proWorkList = snapshot.child('pro').val();
+	constructGrid(proWorkList, 'pro');
+
+	myLazyLoad = new LazyLoad();
+	addHoverToCards();
+});
+// db.ref('/pro/').once('value', (snapshot) => {
+// });
 
 /**
  * calls firebase data api , 
@@ -105,20 +131,20 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
  * 
  */
 const beginShowcase = function beginShowcaseFunc() {
-	$.get(API, (response) => {
-		console.log(response);
-	})
-		.done((response) => {
-			Object.keys(response).forEach((key) => {
-				constructGrid(response[key], key);
-			});
+	// $.get(API, (response) => {
+	// 	console.log(response);
+	// })
+	// 	.done((response) => {
+	// 		Object.keys(response).forEach((key) => {
+	// 			constructGrid(response[key], key);
+	// 		});
 
-			myLazyLoad = new LazyLoad();
-			addHoverToCards();
-		})
-		.fail((error) => {
-			console.error(error.message);
-		});
+	// 	})
+	// 	.fail((error) => {
+	// 		console.error(error.message);
+	// 	});
+	myLazyLoad = new LazyLoad();
+	addHoverToCards();
 };
 
 // ------------- event listeners ---------------------
@@ -127,15 +153,14 @@ const beginShowcase = function beginShowcaseFunc() {
  * 
  */
 btnClient.on('click', () => {
-	btnClient.addClass('active');
-	btnProactive.removeClass('active');
-	gridHolder.removeClass('slide');
+	btnClient.addClass('gallery--active');
+	btnProactive.removeClass('gallery--active');
+	gridHolder.removeClass('grid--slide');
 });
 
 btnProactive.on('click', () => {
-	btnClient.removeClass('active');
-	btnProactive.addClass('active');
-	gridHolder.addClass('slide');
+	btnClient.removeClass('gallery--active');
+	btnProactive.addClass('gallery--active');
+	gridHolder.addClass('grid--slide');
 });
 
-beginShowcase();

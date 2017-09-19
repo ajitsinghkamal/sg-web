@@ -59,11 +59,11 @@
 		content: "\A";
 		white-space: pre;
 	}
-	.about-links {
+	.about-nav {
 		display: flex;
 		justify-content: center;
 		padding-top: 140px;
-		.link {
+		.about-nav__link {
 			margin: 0 40px;
 			color: $grey_sixty;
 			font-weight: 100;
@@ -78,7 +78,7 @@
 		text-align: center;
 	}
 
-	.story-title {
+	.story__title {
 		padding: 140px 15px 10px 15px;
 	}
 
@@ -189,20 +189,20 @@
 }
 
 @media screen and (min-width: 759px) and (max-width: 1127px) {
-	.about-page .about-content .success-story .photo-slider .image {
+	.about-page .about-content .story .photo-slider .image {
 		width: 44%!important;
 	}
 }
 
 @media screen and (min-width: 629px) and (max-width: 758px) {
-	.about-page .about-content .success-story .photo-slider .image {
+	.about-page .about-content .story .photo-slider .image {
 		width: 40%!important;
 		height: 216px;
 	}
 }
 
 @media screen and (max-width: 628px) {
-	.about-page .about-content .success-story .photo-slider .image {
+	.about-page .about-content .story .photo-slider .image {
 		height: 186px;
 		width: 45%!important;
 		margin: 5px;

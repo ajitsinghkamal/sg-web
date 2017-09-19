@@ -15,7 +15,7 @@ $('.client-content').slick({
 	autoplay: true,
 });
 
-$('.link').on('click', function (event) {
+$('.about-nav__link').on('click', function (event) {
 	const hash = this.hash;
 	if (hash !== '') {
 		event.preventDefault();

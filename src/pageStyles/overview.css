@@ -3,6 +3,13 @@
 }
 
 .overview {
+    padding-top:40px;
+    margin-top: -50px;
+    background-position:top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+
     .container {
         max-width: 1100px;
         margin: 0 auto;
@@ -20,13 +27,15 @@
         width: 80%;
         margin: 0 auto;
     }
-    .header {
+    .overview__header {
         .main-title {
+            text-align: center;
             font-size: 24px;
             line-height: 1.04;
             color: $gold;
         }
         .logo {
+            text-align: center;
             padding: 100px 0;
             .logo-img {
                 margin-bottom: 80px;
@@ -35,6 +44,7 @@
     }
 
     .information {
+        position: relative;
         .info-title {
             display: inline-block;
             padding: 0 8px;
@@ -46,38 +56,31 @@
             border-bottom: 2px solid $gold;
             margin-bottom: 60px;
         }
-        section.key-elements {
-            .element-logo {
-                width: 127px;
-                height: 127px;
-                margin: 0 auto;
-                margin-top: 80px;
+        .opt-info {
+            text-align: center;
+            .opt-info__image {
+                position: relative;
+                height: 420px;
                 img {
+                    position: absolute;
                     width: 100%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
                 }
             }
         }
         section.concept-note {
             padding: 100px 0;
         }
-        section.orientation {
-            padding-bottom: 100px;
-            .orientation-image {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+       
+    }
+}
 
-                img {
-                    margin: 0 40px;
-                }
-            }
-        }
-        section.related-images {
-            display: flex;
-            flex-direction: column;
-            img {
-                width: 100%;
-            }
-        }
+ .related-images {
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 100%;
     }
 }

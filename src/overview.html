@@ -10,46 +10,42 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="normalise">
+<body class="content--normalise">
 	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-	<header class="brand-header">
-		<div class="logo" role="img">
+	<header class="header content__container">
+		<div class="header__logo" role="img">
 			<a href="index.html">
-                        <img src="assets/BrandLogo1.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
-                    </a>
+				<img src="assets/BrandLogo1.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
+			</a>
 		</div>
 		<nav>
-			<ul role="menubar" class="normalise [ navigation navigation--site ]">
-				<li class="navigation--site-links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
+			<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
+				<li class="navigation-site__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
 
-				<li class="navigation--site-links current-nav"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
+				<li class="navigation-site__links navigation-site__current"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
 
-				<li class="navigation--site-links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
+				<li class="navigation-site__links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div id="content-placeholder">
+	<main id="content-placeholder">
 		<script id="template" type="text/x-handlebars-template">
-			<div class="overview">
-				<header class="container header">
+			<div class="overview" style="background-image:url({{desc_bg}});">
+				<header class="container overview__header">
 					<h1 class="main-title">{{desc_heading}}</h1>
 					<div class="logo">
 						<img class="logo-img" src="{{desc_logo}}">
 						<p class="info">{{desc_intro}}</p>
 					</div>
 				</header>
-				<main class="information">
+				<div class="information">
 					{{#if desc_elements}}
-					<section class="container key-elements">
-						<h2 class="info-title">Key elements</h2>
-						<div class="elements-image">
-							{{#each desc_elements}}
-							<img src="{{this}}" alt="elements"> {{/each}}
-						</div>
-						<div class="element-logo">
-							<img class="logo" src="{{logo}}">
+					<section class="opt-info">
+						<!-- <h2 class="info-title">Key elements</h2> -->
+						<div class="opt-info__image">
+							<img src="{{desc_elements}}" alt="key elements of the design">
 						</div>
 					</section>
 					{{/if}} {{#if desc_note}}
@@ -58,23 +54,22 @@
 						<p class="info">{{desc_note}}</p>
 					</section>
 					{{/if}} {{#if desc_orientation}}
-					<section class="container orientation">
+					<section class="opt-info orientation">
 						<h2 class="info-title">Orientation</h2>
-						<div class="orientation-image">
-							{{#each desc_orientation}}
-							<img src="{{this}}" alt="orientation"> {{/each}}
+						<div class="opt-info__image">
+							<img src="{{desc_orientation}}" alt="horizontal & vertical orientation of the design"> 
 						</div>
 					</section>
 					{{/if}}
 
-					<section class="related-images">
-						{{#each desc_mocks}}
-						<img src="{{this}}" alt="mocks"> {{/each}}
-					</section>
-				</main>
+				</div>
+			</div>
+			<div class="related-images">
+				{{#each desc_mocks}}
+				<img src="{{this}}" alt="mocks"> {{/each}}
 			</div>
 		</script>
-	</div>
+	</main>
 	<script defer src="scripts/vendor.js"></script>
 	<script defer src="scripts/overview.bundle.js"></script>
 </body>

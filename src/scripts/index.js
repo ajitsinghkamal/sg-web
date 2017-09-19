@@ -1,7 +1,6 @@
 import $ from 'jquery';
-import { classShuffleUtil } from './app';
 
-const brush = document.querySelector('.brush-stroke');
+const brush = document.querySelector('.banner__brush');
 
 /**
  * determine the correct browser specific animation end event
@@ -29,8 +28,18 @@ const browserAnimationCheck = function whichAnimationEvent() {
 
 const animationEvent = browserAnimationCheck();
 
-$('.brush-stroke').addClass('brush-art');
+function classShuffleUtil(element, classToAdd, classToRemove) {
+	if (typeof element === 'string' || element instanceof String) {
+		$(element).removeClass(classToRemove).addClass(classToAdd);
+	} else {
+		element.forEach((el) => {
+			$(el).removeClass(classToRemove).addClass(classToAdd);
+		});
+	}
+}
+
+$('.banner__brush').addClass('banner__brush--art');
 
 brush.addEventListener(animationEvent, () => {
-	classShuffleUtil(['.brand-logo', '.dash-navigation'], 'reveal', 'hide');
+	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
 }, false);
