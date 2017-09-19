@@ -60,13 +60,14 @@
             text-align: center;
             .opt-info__image {
                 position: relative;
-                height: 420px;
+                // height: 420px;
                 img {
-                    position: absolute;
-                    width: 100%;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%,-50%);
+                    position: relative;
+                    // height: 100%;
+                    top: 0;
+                    width:100%;
+                    left: 0;
+                    // transform: translate(-50%,-50%);
                 }
             }
         }
@@ -78,6 +79,7 @@
 }
 
  .related-images {
+     margin-top:50px;
     display: flex;
     flex-direction: column;
     img {
