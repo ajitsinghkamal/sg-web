@@ -6,7 +6,7 @@
 	.banner__brush{
 		position: relative;
 		height: 75vh ;
-		transform:translateY(-75vh);
+		transform:translateY(-5vh);
 		z-index: 1;
 	}
 
@@ -60,6 +60,7 @@
 		-webkit-transition: opacity 1.6s linear 0.7s;
 		-moz-transition: opacity 1.6s linear 0.7s;
 		transition: opacity 1.6s linear 0.7s;
+		z-index: 20;
 	}
 	 
 	.navigation-site__links{
@@ -101,11 +102,12 @@
 /* animations */
 @keyframes paint{
 	0%{
-	   top:-75vh; 
+	   top:0; 
 	}
 	
 	100%{
-		transform: translateY(-5vh);
+		transform: translateY(75vh);
+		// opacity:0;
 	}
 }
 

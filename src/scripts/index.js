@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-const brush = document.querySelector('.banner__brush');
+const brush = document.querySelector('.brush-overlay');
 
 /**
  * determine the correct browser specific animation end event
@@ -38,7 +38,7 @@ function classShuffleUtil(element, classToAdd, classToRemove) {
 	}
 }
 
-$('.banner__brush').addClass('banner__brush--art');
+$('.brush-overlay').addClass('banner__brush--art');
 
 brush.addEventListener(animationEvent, () => {
 	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
