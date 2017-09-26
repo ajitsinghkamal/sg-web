@@ -1,6 +1,38 @@
 .work-page{	
+
+	background-image: url(assets/Background-image.jpg);
+    background-origin: border-box;
+    background-position: top center;
+    background-repeat: repeat;
+    background-size: 0;
+	transition: background-size 0.2s;
+
+	&.work-page--bg {
+		background-size: 100%; 
+	}
+
 	.gallery{
 		overflow: hidden;
+		position: relative;
+		.grid--fetch {
+			position: relative;
+			height: calc(100vh - 274px);
+			width: 100%;
+			z-index: 100;
+			pointer-events: none;
+			top:38px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				position: absolute;
+				animation: animateloading 2s ease-in-out infinite;
+			}
+		}
+
+		.grid--complete {
+			display:none;
+		}
 	}
 
 	.grid-holder{
@@ -9,6 +41,8 @@
 		flex-flow: row nowrap;
 		width: 200%;
 		transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.32, 0.92);
+
+		
 	}
 
 	.gallery__navigation{
@@ -47,6 +81,7 @@
 		width: 100%;
 		margin: 58px -15px -15px 0; 
 		justify-content: center;
+		align-content:flex-start;
 		
 	}
 
@@ -73,14 +108,18 @@
 		max-width: 390px;
 	
 		.card__image{
-			background-color: $grey_sixty;
+			background-color: $grey_thirty;
 			transition: all 0.3s;
 			position: relative;
 			&:before {
+				background: url('assets/LoadingOp2.png') center no-repeat;
+				animation: animateloading 2s linear infinite;
 				display: block;
 				content: "";
 				width: 100%;
 				padding-top: calc( 270 / 370 * 100%);
+				background-size:80px;
+				transform-origin: center;
 			}
 
 			img{
@@ -114,7 +153,7 @@
 			}
 
 			p{
-				font-size: 12px;
+				font-size: 13px;
 				color: $grey_sixty;
 				font-weight: 300;
 				font-style: italic;
@@ -159,5 +198,10 @@
 		}
 
 	}
+
 }
 
+	@keyframes animateloading{
+		from { transform:rotate(0deg); }
+		to { transform:rotate(360deg); }
+	}

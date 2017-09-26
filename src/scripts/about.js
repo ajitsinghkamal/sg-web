@@ -6,8 +6,10 @@ import slick from 'slick-carousel';
  */
 
 $('.photo-slider').slick({
-	rows: 2,
-	slidesPerRow: 2,
+	slidesToScroll: 2,
+	slidesToShow: 2,
+	infinite: true,
+	autoplay: true,
 });
 
 $('.client-content').slick({

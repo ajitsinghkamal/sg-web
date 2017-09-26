@@ -1,21 +1,21 @@
 import $ from 'jquery';
 
-import * as firebase from 'firebase/app';
-import 'firebase/database';
+// import * as firebase from 'firebase/app';
+// import 'firebase/database';
 
 import LazyLoad from 'vanilla-lazyload';
 
 // Constants declaration
 const API = 'https://sudeepgandhiweb.firebaseio.com/.json'; // database path
 
-const fire = firebase.initializeApp({
-	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
-	authDomain: 'sudeepgandhiweb.firebaseapp.com',
-	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
-	projectId: 'sudeepgandhiweb',
-});
+// const fire = firebase.initializeApp({
+// 	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
+// 	authDomain: 'sudeepgandhiweb.firebaseapp.com',
+// 	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
+// 	projectId: 'sudeepgandhiweb',
+// });
 
-const db = fire.database();
+// const db = fire.database();
 
 
 // DOM references
@@ -24,9 +24,11 @@ const proGrid = $('.grid__proactive');
 const btnClient = $('.gallery__btn-client');
 const btnProactive = $('.gallery__btn-proactive');
 const gridHolder = $('.grid-holder');
+const background = $('.work-page');
 
 // initialise lazy loading
-let myLazyLoad ;
+let myLazyLoad1 ;
+let myLazyLoad2 ;
 
 let timer = null;
 
@@ -43,7 +45,8 @@ const calcRequiredExtra = function calcRequiredExtraFunc(available) {
 const addToGrid = function addToGridFunc(grid, cell) {
 	if (grid === 'client') {
 		clientGrid.append(cell);
-	} else {
+	}
+	if (grid === 'pro') {
 		proGrid.append(cell);
 	}
 };
@@ -113,15 +116,15 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 	}
 };
 
-db.ref().once('value').then((snapshot) => {
-	const clientWorkList = snapshot.child('client').val();
-	constructGrid(clientWorkList, 'client');
-	const proWorkList = snapshot.child('pro').val();
-	constructGrid(proWorkList, 'pro');
+// db.ref().on('value', (snapshot) => {
+// 	const clientWorkList = snapshot.child('client').val();
+// 	constructGrid(clientWorkList, 'client');
+// 	const proWorkList = snapshot.child('pro').val();
+// 	constructGrid(proWorkList, 'pro');
 
-	myLazyLoad = new LazyLoad();
-	addHoverToCards();
-});
+// 	myLazyLoad = new LazyLoad();
+// 	addHoverToCards();
+// });
 // db.ref('/pro/').once('value', (snapshot) => {
 // });
 
@@ -131,20 +134,28 @@ db.ref().once('value').then((snapshot) => {
  * 
  */
 const beginShowcase = function beginShowcaseFunc() {
-	// $.get(API, (response) => {
-	// 	console.log(response);
-	// })
-	// 	.done((response) => {
-	// 		Object.keys(response).forEach((key) => {
-	// 			constructGrid(response[key], key);
-	// 		});
+	$.get(API, (response) => {
+		// console.log(response);
+	})
+		.done((response) => {
+			Object.keys(response).forEach((key) => {
+				constructGrid(response[key], key);
+			});
 
-	// 	})
-	// 	.fail((error) => {
-	// 		console.error(error.message);
-	// 	});
-	myLazyLoad = new LazyLoad();
-	addHoverToCards();
+			myLazyLoad1 = new LazyLoad({
+				container: document.getElementById('o-client'),
+			});
+
+			myLazyLoad2 = new LazyLoad({
+				container: document.getElementById('o-proactive'),
+			});
+
+			addHoverToCards();
+			$('.grid--fetch').addClass('grid--complete');
+		})
+		.fail((error) => {
+			console.error(error.message);
+		});
 };
 
 // ------------- event listeners ---------------------
@@ -153,14 +164,18 @@ const beginShowcase = function beginShowcaseFunc() {
  * 
  */
 btnClient.on('click', () => {
+	background.removeClass('work-page--bg');
 	btnClient.addClass('gallery--active');
 	btnProactive.removeClass('gallery--active');
 	gridHolder.removeClass('grid--slide');
 });
 
 btnProactive.on('click', () => {
+	background.addClass('work-page--bg');
 	btnClient.removeClass('gallery--active');
 	btnProactive.addClass('gallery--active');
 	gridHolder.addClass('grid--slide');
 });
+
+beginShowcase();
 

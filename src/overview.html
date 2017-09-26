@@ -24,7 +24,7 @@
 			<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
 				<li class="navigation-site__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
 
-				<li class="navigation-site__links navigation-site__current"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
+				<li class="navigation-site__links "><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
 
 				<li class="navigation-site__links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
 			</ul>
@@ -33,31 +33,35 @@
 	<main id="content-placeholder">
 		<script id="template" type="text/x-handlebars-template">
 			<div class="overview" style="background-image:url({{desc_bg}});">
+				{{#if desc_heading}}
 				<header class="container overview__header">
 					<h1 class="main-title">{{desc_heading}}</h1>
 					<div class="logo">
+						{{#if desc_logo}}
 						<img class="logo-img" src="{{desc_logo}}">
-						<p class="info">{{desc_intro}}</p>
+						{{/if}}
+						<p class="info">{{{desc_intro}}}</p>
 					</div>
 				</header>
+				{{/if}}
 				<div class="information">
 					{{#if desc_elements}}
 					<section class="opt-info">
-						<!-- <h2 class="info-title">Key elements</h2> -->
+						 <h2 class="info-title">Key elements</h2> 
 						<div class="opt-info__image">
-							<img src="{{desc_elements}}" alt="key elements of the design">
+							<img class="opt-info__image--fl" src="{{desc_elements}}" alt="key elements of the design">
 						</div>
 					</section>
 					{{/if}} {{#if desc_note}}
 					<section class="container concept-note">
 						<h2 class="info-title">Concept note</h2>
-						<p class="info">{{desc_note}}</p>
+						<p class="info">{{{desc_note}}}</p>
 					</section>
 					{{/if}} {{#if desc_orientation}}
 					<section class="opt-info orientation">
 						<h2 class="info-title">Orientation</h2>
 						<div class="opt-info__image">
-							<img src="{{desc_orientation}}" alt="horizontal & vertical orientation of the design"> 
+							<img class="opt-info__image--hf" src="{{desc_orientation}}" alt="horizontal & vertical orientation of the design"> 
 						</div>
 					</section>
 					{{/if}}

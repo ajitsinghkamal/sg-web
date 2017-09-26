@@ -1,5 +1,5 @@
 @import url(colors.css);
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600');
 
 html{
 	box-sizing: border-box ;
@@ -23,6 +23,8 @@ a:hover{
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .content--normalise{
@@ -68,24 +70,26 @@ body{
 }
 
 .navigation-site{
-	padding: 15px 0px 35px 0;
+	padding: 15px 0px 30px 0;
 	justify-content: space-between;
 }
 
 
 .navigation-site__links{
 	text-align: center;
-	flex-basis: 100px;
-	transition: background-color 0.6s,color 0.2s;
+	flex-basis: 115px;
+	// transition: color 0.1s;
 	background-image: none ;
 	background-origin: border-box;
-	background-position: center;
+	background-position: center -20px;
 	background-repeat: no-repeat;
-	background-size: 126px;
+	background-size: 143px;
 	
 	&.navigation-site__current{
-		color: white;
-		background-image: url('./assets/HoverSelect1.png');
+		color: $gold;
+		background-image: url('./assets/Hover1.png');
+		transition:color 0.2s;
+		font-weight: 500;
 
 		a{
 			display: block;
@@ -99,7 +103,7 @@ body{
 
 	a{
 		display: block;
-		padding: 12px 0;
+		padding: 15px 0;
 		
 	}
 

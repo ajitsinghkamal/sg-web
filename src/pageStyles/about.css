@@ -3,6 +3,14 @@
 
 .about-page{
 	.about-content {
+
+		section {
+				padding:80px 80px 120px 80px;
+			background-position: top center;
+			background-origin: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
 		.about-title {
 			line-height: 56px;
 			text-transform: uppercase;
@@ -12,7 +20,7 @@
 		}
 		.image {
 			height: 266px;
-			width: 48% !important;
+			// width: 48% !important;
 			margin: 10px;
 			position: relative;
 			transition: all 0.3s;
@@ -38,16 +46,16 @@
 		}
 		.inner-title {
 			font-size: 22px;
-			font-weight: 100;
-			line-height: 32px;
+			font-weight: 400;
 			border-bottom: 2px solid $gold;
 			display: inline-block;
 		}
 
 		p {
-			text-align: left;
+			text-align: justify;
 			margin-top: 0;
-			line-height: 1.4;
+			line-height: 1.5;
+			font-weight:400;
 			letter-spacing: 0.6px;
 			font-size: 14px;
 		}
@@ -73,27 +81,41 @@
 		}
 	}
 	.inner-container {
-		max-width: 1100px;
-		margin: 0 auto;
+		// max-width: 1100px;
 		text-align: center;
+		    margin: 0 auto;
+		max-width: 1100px;
+	}
+
+	.story {
+		text-align: center;
+		margin-top: 80px;
+		background-image:url('assets/Success-Stories-Background.jpg');
 	}
 
 	.story__title {
-		padding: 140px 15px 10px 15px;
+		line-height: 2.5;
 	}
-
+	
 	.photo-slider {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin-top: 15px;
+		margin: 10px auto 0 auto;
+		
 	}
-	.slick-prev:before {
-		content: '<' !important;
+	.slick-prev{
+		left: -45px;
+		&:before {
+			content: '<' !important;
+		}
 	}
 
-	.slick-next:before {
-		content: '>' !important;
+	.slick-next{
+		right: -45px;
+		&:before {
+			content: '>' !important;
+		}
 	}
 
 	.slick-prev:before,
@@ -115,7 +137,7 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background-image: url('../assets/about-image.png');
+			background-image: url('../assets/MyPhoto.jpg');
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -125,16 +147,18 @@
 	}
 
 	.about-me {
-		padding: 140px 14px;
+		padding: 40px 14px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		margin:0 auto;
 	}
 
 	 .photo-title {
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 		text-align: left;
 		margin: 0;
+		line-height: 1.5;
 	}
 
 	.content {
@@ -142,28 +166,44 @@
 	}
 
 	.slick-dots li.slick-active button:before {
-		color: $gold !important;
+		color: $black !important;
 	}
 
 	.slick-dots li button:before {
-		font-size: 10px !important;
+		color: $gold;
+		font-size: 40px !important;
+		opacity: 0.75;
 	}
 }
 
 
 .about-page .about-content .client-says {
-	margin-bottom: 140px;
+	// margin-bottom: 140px;
 	padding-left: 14px;
 	padding-right: 14px;
-	p {
-		padding: 0 120px;
-	}
+	background-image: url(assets/Clients-Say-Background.jpg);
 
 	.client-title {
 		padding: 0 15px 10px 15px;
 	}
 	.client-content {
-		margin-top: 20px;
+		margin: 20px auto;
+		width: 80%;
+		p {
+			padding: 0 120px;
+
+			&:last-child {
+				font-style: italic;
+				font-size: 16px
+			}
+
+			&:nth-last-child(2) {
+				font-weight:500;
+				margin: 40px 0 10px 0;
+				font-size: 16px;
+			}
+		}
+
 	}
 }
 
@@ -190,13 +230,13 @@
 
 @media screen and (min-width: 759px) and (max-width: 1127px) {
 	.about-page .about-content .story .photo-slider .image {
-		width: 44%!important;
+		// width: 44%!important;
 	}
 }
 
 @media screen and (min-width: 629px) and (max-width: 758px) {
 	.about-page .about-content .story .photo-slider .image {
-		width: 40%!important;
+		// width: 40%!important;
 		height: 216px;
 	}
 }
@@ -204,7 +244,7 @@
 @media screen and (max-width: 628px) {
 	.about-page .about-content .story .photo-slider .image {
 		height: 186px;
-		width: 45%!important;
+		// width: 45%!important;
 		margin: 5px;
 	}
 }

@@ -66,8 +66,8 @@
 	.navigation-site__links{
 
 		&:hover{
-			color: white;
-			background-image: url('./assets/HoverSelect1.png');
+			color: $gold;
+			background-image: url('./assets/Hover1.png');
 		}
 
 		a{

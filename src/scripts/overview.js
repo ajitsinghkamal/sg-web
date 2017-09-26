@@ -35,7 +35,7 @@ function getUrlParameter(paramToGet) {
 function initPageContent() {
 	const key = getUrlParameter('work');
 
-	db.ref('/').once('value').then((snapshot) => {
+	db.ref('/').on('value', (snapshot) => {
 		if (snapshot.child(`client/${key}`).exists()) {
 			const data = snapshot.child(`client/${key}`).val();
 			$('#content-placeholder').html(template(data));
