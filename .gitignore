@@ -12,3 +12,4 @@ Local Storage/
 Preferences
 /*.sock
 storage.json
+public/

@@ -11,24 +11,47 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="content--normalise">
+<body class="content--normalise o--rel">
 	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
+	<div class="work-page--bg"></div>
 	<div class="work-page content__container">
 		<header class="header">
 			<div class="header__logo" role="img">
 				<a href="index.html">
-						<img src="assets/BrandLogo1.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
+						<img src="assets/SG-LOGO.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
 					</a>
 			</div>
-			<nav>
+			<input type="checkbox" id="menu">
+			<label for="menu" onclick></label>
+			<nav role="on-canvas">
 				<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
-					<li class="navigation-site__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
-
-					<li class="navigation-site__links navigation-site__current"><a href="#" aria-label="navigate to Sudeep's work">WORK</a></li>
-
-					<li class="navigation-site__links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
+					<li class="navigation-site__links">
+						<div class="background-brush" role="presentation">
+							<img src="./assets/Hover1.png" alt="brush stroke background for menu items">
+						</div>
+						<a href="about.html" aria-label="navigate to Sudeep's bio">About</a>
+					</li>
+					<li class="navigation-site__links navigation-site__current">
+						<div class="background-brush" role="presentation">
+							<img src="./assets/Hover1.png" alt="brush stroke background for menu items">
+						</div>
+						<a href="work.html" aria-label="navigate to Sudeep's work">Work</a>
+					</li>
+					<li class="navigation-site__links">
+						<div class="background-brush" role="presentation">
+							<img src="./assets/Hover1.png" alt="brush stroke background for menu items">
+						</div>
+						<a href="contact.html" aria-label="navigate to Sudeep's contact details">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<nav role="off-canvas">
+				<ul role="menubar" class="content--normalise navigation-site__off">
+					<li class="off-nav__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
+					<li class="off-nav__links"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
+					<li class="off-nav__links"><a href="contact.html" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -37,8 +60,8 @@
 				<button aria-label="switch to Sudeep's client work portfolio" class="[ gallery--toggle gallery__btn-client ] gallery--active">CLIENT WORK</button>
 				<button aria-label="switch to Sudeep's pro-active work portfolio" class="[ gallery--toggle gallery__btn-proactive ]">PRO-ACTIVE</button>
 			</nav>
-			<div class = "grid--fetch">
-				<img src = "assets/LoadingOp1.png" alt="grid loading indicator">
+			<div class = "content--fetch grid_loader">
+				<img src = "assets/LoadingOp2.png" alt="grid loading indicator">
 			</div>
 
 			<div class="grid-holder">
@@ -46,6 +69,24 @@
 				<section id="o-proactive" class="grid--flex grid__proactive"></section>
 			</div>
 		</main>
+		<footer class="footer content__container">
+			<p class="disclaimer">© 2017 Sudeep Gandhi. All Rights Reserved.</p>
+			<nav class="footer_social">
+				<a href="#">
+					<img src="assets/Icon-Facebook.png" alt="">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Insta.png">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Linkedin.png">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Behance.png">
+				</a>
+		
+			</nav>
+		</footer>
 	</div>
 	<script defer src="scripts/vendor.js"></script>
 	<script defer src="scripts/work.bundle.js"></script>

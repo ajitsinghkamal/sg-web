@@ -1,0 +1,124 @@
+.contact-page {
+	.contact-me {
+		position: relative;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		position: relative;
+		overflow: hidden;
+		width:100%;
+
+		section {
+			flex : 0 0 50%;
+			align-self: flex-start;
+			input,
+			textarea{
+				border: none;
+				display: block;
+				margin: 1.375rem 0;
+				width: 100%;
+				padding: 0.625rem;
+
+				 &:focus {
+					outline: none;
+				}
+			}
+
+			textarea {
+				resize: none;
+				margin-bottom: 1.875rem;
+				height: 5rem;
+			}
+
+			button {
+				border: none;
+				padding: 0.9375rem 1.5625rem;
+				padding-left: 0;
+				width: 120px;
+				font-size: 14px;
+				background: url(assets/Hover1.png);
+				background-position: center;
+				color: white;
+				transition: color 0.2s;
+				&:hover {
+					color: $gold;
+					cursor: pointer;
+				}
+				&:focus {
+					outline: none;
+				}
+			}
+
+			
+		}
+
+		.inner-container {
+			margin: 0 auto;
+			min-width: 270px;
+			max-width: 600px;
+			width: 75%;
+
+			p {
+				line-height: 1.8;
+				font-size: 0.875rem;
+				color: $grey_sixty;
+				margin: 0;
+			}
+
+			h2 {
+				letter-spacing: 0.3px;
+				line-height: 1.06;
+				font-weight: 400;
+				font-size: 1rem;
+			}
+
+			#name,
+			#email,
+			#mesg{
+				border: 1px solid $grey_sixty;
+			}
+
+			.info {
+				&:not(:first-child) {
+					padding-top : 0.9375rem;
+				}
+				&:not(:last-child) {
+					padding-bottom : 0.9375rem;
+				}
+			}
+
+			.navigation-social {
+				margin-top:0.83em;
+				justify-content: flex-start;
+
+				.navigation-social__icon {
+					width: 45px;
+					height: 45px;
+				}
+			}
+		}
+	}
+
+	
+
+@media (max-width: 1020px){
+	.contact-me section{
+		flex: 0 0 100%;
+	}
+
+	.inner-container {
+		padding: 1.875rem 0;
+	}
+
+	.contact-me_form {
+		border-right: 0px;
+	}
+}
+
+@media (min-width: 1021px){
+	.contact-me_form {
+		border-right:1px solid $gold; 
+	}
+}
+
+}

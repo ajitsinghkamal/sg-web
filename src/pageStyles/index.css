@@ -64,16 +64,15 @@
 	}
 	 
 	.navigation-site__links{
-
+		
 		&:hover{
 			color: $gold;
-			background-image: url('./assets/Hover1.png');
+			.background-brush {
+				opacity: 1;
+			}
+			/* background-image: url('./assets/Hover1.png'); */
 		}
 
-		a{
-			display: block;
-			padding: 12px 0;
-		}
 	}
 
 	.cover-page--reveal{

@@ -7,12 +7,17 @@
   "author": "Ajit Singh Kamal <ajitskamal@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "blazy": "^1.8.2",
     "browserify": "^14.4.0",
     "critical": "^0.9.1",
+    "echo-js": "^1.7.3",
     "firebase": "^4.3.0",
     "handlebars": "^4.0.10",
     "jquery": "^3.2.1",
+    "lazysizes": "^4.0.0-rc3",
+    "nodemailer": "^4.1.1",
     "postcss": "^6.0.8",
+    "sass-rem": "^2.0.0",
     "slick-carousel": "^1.7.1",
     "superstatic": "^4.2.1",
     "vanilla-lazyload": "^8.0.3"
@@ -37,7 +42,9 @@
     "gulp-util": "^3.0.8",
     "postcss-import": "^10.0.0",
     "postcss-load-config": "^1.2.0",
+    "postcss-mixins": "^6.1.1",
     "postcss-nested": "^2.0.4",
+    "postcss-pixels-to-rem": "^0.8.0",
     "postcss-simple-vars": "^4.0.0",
     "vinyl-source-stream": "^1.1.0"
   }

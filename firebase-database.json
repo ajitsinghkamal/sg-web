@@ -1,26 +1,26 @@
 {
 	"client": {
 		"ask": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316025/cw/ask/thumbnail/ASK.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316025/cw/ask/thumbnail/ASK.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Experimental Hand Lettering",
 			"thumb_title": "ask wealth management",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506343790/cw/ask/overview/logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343790/cw/ask/overview/logo.jpg",
 			"desc_heading": "Hand Lettering, Calligraphy & Typographic Visuals for",
 			"desc_intro": "ASK Group, a wealth management firm helps HNIs (High Net Worth Individuals) and UHNIs (Ultra High Net Worth Individuals) in managing their wealth. With the new year, ASK will stretches itself beyond the realm of just wealth management and help their customers build a legacy.<br>To convey this role, we decided to take the clients through famous mentor-protege pairs across fields. This way, we say how ASK provides the right counsel without literally saying it out. A variety of Experimental Typography used in this Calendar with each lettering conceptualized in a way conveying the meaning very powerfully.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343792/cw/ask/overview/ASK-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343793/cw/ask/overview/ASK-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343791/cw/ask/overview/ASK-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343791/cw/ask/overview/ASK-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343791/cw/ask/overview/ASK-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343791/cw/ask/overview/ASK-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506343791/cw/ask/overview/ASK-7.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343792/cw/ask/overview/ASK-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343793/cw/ask/overview/ASK-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343791/cw/ask/overview/ASK-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343791/cw/ask/overview/ASK-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343791/cw/ask/overview/ASK-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343791/cw/ask/overview/ASK-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506343791/cw/ask/overview/ASK-7.jpg"
 			]
 		},
 
 		"brics": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316322/cw/brics/thumbnail/BRICS.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316322/cw/brics/thumbnail/BRICS.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design",
 			"thumb_title": "brics summit 2016",
@@ -30,100 +30,102 @@
 			"desc_note": "Lotus symbolises Glory, Prosperity, Unity and Eternity and also it’s a National Flower of India. The concept line behind this logo is, Welcoming the leaders of Brazil, Russia, China and South Africa to India, with a humble, traditional and a respectful gesture “Namaste” to lead our way to prosperity with unity.The colours used in the logo symbolizes each country,  Brazil in Green | Russia in Blue | India in Saffron China in Red | South Africa in Yellow",
 			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344292/cw/brics/overview/Key-Elements.png",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344293/cw/brics/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344292/cw/brics/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344292/cw/brics/overview/Mock-up-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344292/cw/brics/overview/Mock-up-4.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344293/cw/brics/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344292/cw/brics/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344292/cw/brics/overview/Mock-up-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344292/cw/brics/overview/Mock-up-4.jpg"
 			],
-			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344293/cw/brics/overview/Background.jpg"
+			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344293/cw/brics/overview/Background.jpg",
+			"desc_bg-note":"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344293/cw/brics/overview/Background.jpg",
+			"desc_bg-el":"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344293/cw/brics/overview/Background.jpg"
 		},
 
 		"dma": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316372/cw/dma/thumbnail/DMA.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316372/cw/dma/thumbnail/DMA.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Experimental Hand Lettering",
 			"thumb_title": "DMA Asia Echo Awards 2015",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506344877/cw/dma/overview/logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344877/cw/dma/overview/logo.jpg",
 			"desc_heading": "Hand Lettering & Typographic Visuals for",
 			"desc_intro": "This Project for DMA Asia ECHO awards 2015 was an amazing experience in terms of exploring typography.  In Advertising agencies there are some people with double standards who gives excuses if they do not win an award or even if they do not participate.<br>So, the tagline entry or excuse itself conveys the concept very well. Participate or give an excuse, what do you choose? The Campaign got published in all leading newsletters and magazines that circulates in top advertising agencies like Campaign India, Image etc.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344879/cw/dma/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344879/cw/dma/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344878/cw/dma/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344877/cw/dma/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344877/cw/dma/overview/Image-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344878/cw/dma/overview/Image-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344878/cw/dma/overview/Image-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506344878/cw/dma/overview/Image-8.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344879/cw/dma/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344879/cw/dma/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344878/cw/dma/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344877/cw/dma/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344877/cw/dma/overview/Image-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344878/cw/dma/overview/Image-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344878/cw/dma/overview/Image-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506344878/cw/dma/overview/Image-8.jpg"
 			]
 		},
 
 		"bigbazar-ssd": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316283/cw/BBssd/thumbnail/BB-SSD.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316283/cw/BBssd/thumbnail/BB-SSD.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "MULTILINGUAL TYPOGRAPHY",
 			"thumb_title": "BIG BAZAAR ( sabse saste 6 din )",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506345263/cw/BBssd/overview/Logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345263/cw/BBssd/overview/Logo.jpg",
 			"desc_heading": "Multilingual Typography & Lettering for a Campaign of",
 			"desc_intro": "sabse saste 6 din",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345269/cw/BBssd/overview/BB-SSD-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345269/cw/BBssd/overview/BB-SSD-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345269/cw/BBssd/overview/BB-SSD-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345269/cw/BBssd/overview/BB-SSD-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345264/cw/BBssd/overview/BB-SSD-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345263/cw/BBssd/overview/BB-SSD-6.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345269/cw/BBssd/overview/BB-SSD-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345269/cw/BBssd/overview/BB-SSD-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345269/cw/BBssd/overview/BB-SSD-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345269/cw/BBssd/overview/BB-SSD-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345264/cw/BBssd/overview/BB-SSD-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345263/cw/BBssd/overview/BB-SSD-6.jpg"
 			]
 		},
 
 		"bigbazar-htm": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316258/cw/BBhtm/thumbnail/BB-HTM.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316258/cw/BBhtm/thumbnail/BB-HTM.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "MULTILINGUAL TYPOGRAPHY",
 			"thumb_title": "BIG BAZAAR ( har tyohar me )",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506345560/cw/BBhtm/overview/Logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345560/cw/BBhtm/overview/Logo.jpg",
 			"desc_heading": "Multilingual Typography & Lettering for a Campaign of",
 			"desc_intro": "har tyohar mein",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345561/cw/BBhtm/overview/HTM-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345561/cw/BBhtm/overview/HTM-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345561/cw/BBhtm/overview/HTM-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345560/cw/BBhtm/overview/HTM-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345560/cw/BBhtm/overview/HTM-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345561/cw/BBhtm/overview/HTM-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345560/cw/BBhtm/overview/HTM-7.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345561/cw/BBhtm/overview/HTM-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345561/cw/BBhtm/overview/HTM-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345561/cw/BBhtm/overview/HTM-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345560/cw/BBhtm/overview/HTM-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345560/cw/BBhtm/overview/HTM-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345561/cw/BBhtm/overview/HTM-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345560/cw/BBhtm/overview/HTM-7.jpg"
 			]
 		},
 
 		"brahmabodhi": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316302/cw/brahmabodhi/thumbanil/Brahmabodhi.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316302/cw/brahmabodhi/thumbanil/Brahmabodhi.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "magazine design",
 			"thumb_title": "Brahmabodhi magazine",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345858/cw/brahmabodhi/overview/logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345858/cw/brahmabodhi/overview/logo.jpg",
 			"desc_heading": "Publishing Design for",
 			"desc_intro": "Brahmabodhi a magazine newly launched to elevate the readers in the horizon of knowledge. It is the fuel to the mind.  A magazine which speaks about untouched subjects and takes every reader through a deeper journey of ultimate knowledge.   This magazine not only shares the valuable articles by legendry luminaries but also gives insight to the youth to built healthy cultural high values of the life.It is the need of every cultured human being to share and adopt the treasure of invaluable knowledge to built unconditional bond of our allied arts like Dance , Music , Painting , Sculpture , Poetry , Literature , Yoga  and the modern adaptation of the new world  - Fashion & Tradition , Art & Architecture and so on.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345864/cw/brahmabodhi/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345863/cw/brahmabodhi/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345863/cw/brahmabodhi/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345863/cw/brahmabodhi/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345863/cw/brahmabodhi/overview/Image-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345862/cw/brahmabodhi/overview/Image-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345862/cw/brahmabodhi/overview/Image-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345861/cw/brahmabodhi/overview/Image-8.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345862/cw/brahmabodhi/overview/Image-9.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345861/cw/brahmabodhi/overview/Image-10.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345860/cw/brahmabodhi/overview/Image-11.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345860/cw/brahmabodhi/overview/Image-12.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345859/cw/brahmabodhi/overview/Image-13.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345861/cw/brahmabodhi/overview/Image-14.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506345859/cw/brahmabodhi/overview/Image-15.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345864/cw/brahmabodhi/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345863/cw/brahmabodhi/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345863/cw/brahmabodhi/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345863/cw/brahmabodhi/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345863/cw/brahmabodhi/overview/Image-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345862/cw/brahmabodhi/overview/Image-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345862/cw/brahmabodhi/overview/Image-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345861/cw/brahmabodhi/overview/Image-8.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345862/cw/brahmabodhi/overview/Image-9.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345861/cw/brahmabodhi/overview/Image-10.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345860/cw/brahmabodhi/overview/Image-11.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345860/cw/brahmabodhi/overview/Image-12.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345859/cw/brahmabodhi/overview/Image-13.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345861/cw/brahmabodhi/overview/Image-14.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506345859/cw/brahmabodhi/overview/Image-15.jpg"
 			]
 		},
 
 		"indusind": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316415/cw/indusind/thumbnail/IndusInd-Bank.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316415/cw/indusind/thumbnail/IndusInd-Bank.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Space Design",
 			"thumb_title": "indusind bank",
@@ -131,41 +133,61 @@
 			"desc_heading": "Space Design for the Corporate Office of",
 			"desc_intro": "The Project brief was to design the space at Corporate Office of IndusInd Bank located at Peninsula Corporate Park, Mumbai and make it lively. Multiple discussions led to a route where we came up with an idea to use the attributes they have been following and would also like the employees to follow on a regular basis. The use of Expressive Typography had been made to convey the attributes in a way that the employees can connect with. The execution was minimal and corporate but it did create a good impact. The consistency in the use of the design elements throughout the office and along with typography created a visual language of its own and made every passerby look at it twice. ",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346298/cw/indusind/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346298/cw/indusind/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346297/cw/indusind/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346297/cw/indusind/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346298/cw/indusind/overview/Image-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346297/cw/indusind/overview/Image-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346296/cw/indusind/overview/Image-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346297/cw/indusind/overview/Image-8.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346297/cw/indusind/overview/Image-9.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346296/cw/indusind/overview/Image-10.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346296/cw/indusind/overview/Image-11.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506346296/cw/indusind/overview/Image-12.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346298/cw/indusind/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346298/cw/indusind/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346297/cw/indusind/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346297/cw/indusind/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346298/cw/indusind/overview/Image-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346297/cw/indusind/overview/Image-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346296/cw/indusind/overview/Image-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346297/cw/indusind/overview/Image-8.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346297/cw/indusind/overview/Image-9.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346296/cw/indusind/overview/Image-10.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346296/cw/indusind/overview/Image-11.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506346296/cw/indusind/overview/Image-12.jpg"
 			]
 		},
 
 		"indraneel-shelar": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316392/cw/indraneel/thumbnail/Indraneel-Shelar.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316392/cw/indraneel/thumbnail/Indraneel-Shelar.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "identity design & branding",
 			"thumb_title": "indraneel shelar photography",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347043/cw/indraneel/overview/Logo.png",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347043/cw/indraneel/overview/Logo.png",
 			"desc_heading": "Identity Design & Branding for Indraneel Shelar",
 			"desc_intro": "Indraneel Shelar, a Still Documentarist and a Photography Tutor, is extremely dedicated towards his work and always delivers the best output. His expertise lies in the fields of travel photography, events, corporate brand campaigns and landscape photography. His work is a reflection of his creativity, attention to detail and passion towards his job. Every photograph of his is an attempt to bring the subject alive to the viewers’ eyes.",
 			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
-			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347043/cw/indraneel/overview/Orientation.jpg",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347043/cw/indraneel/overview/Key-Elements.jpg",
+			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347043/cw/indraneel/overview/Orientation.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347043/cw/indraneel/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347044/cw/indraneel/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347044/cw/indraneel/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506347043/cw/indraneel/overview/Mock-up-3.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347044/cw/indraneel/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347044/cw/indraneel/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506347043/cw/indraneel/overview/Mock-up-3.jpg"
 			]
 		},
 
+		"rusty-rickshaw": {
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316506/cw/rusty/thumbnail/Rusty-Rickshaw.jpg",
+			"thumb_slide": [],
+			"thumb_tag": "logo design & branding",
+			"thumb_title": "catchy motions",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506365572/cw/rusty/overview/Logo.png",
+			"desc_heading": "Identity Design & Branding for Rusty Rickshaw",
+			"desc_intro": "Rusty Rickshaw is a Southern California based indian rock & world fusion band and their sound ranges from rock, blues & funk to hindustani, indian folk & sufi.",
+			"desc_notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506365575/cw/rusty/overview/Key-Elements.jpg",
+			"desc_mocks": [
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-3.jpg"
+			],
+			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506363502/cw/catchy/overview/Background.jpg",
+			"desc_bg-head":"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506365580/cw/rusty/overview/Background.jpg",
+			"desc_bg-note":"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506365578/cw/rusty/overview/Concept-Note-Backgound.jpg"
+		},
+
 		"catchy-motions": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316356/cw/catchy/thumbnail/Catchy-Motions.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316356/cw/catchy/thumbnail/Catchy-Motions.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design & branding",
 			"thumb_title": "catchy motions",
@@ -173,17 +195,17 @@
 			"desc_heading": "Identity Design & Branding for Catchy Motions",
 			"desc_intro": "Catchymotions is an entity which focuses on experimenting in Videography and delivering an astonishing output. The name itself conveys its meaning, but it has a pun in it. It primarily means “Catchy Motions” but when you look closer at it, it also means “Catch Emotions”. It’s a unique initiative to explore the unexplored mannerisms of Videography.",
 			"desc_note": "The use of the ‘Play’ icon as a primary element makes it evident that ‘Catchy Motions’ is something about Videography. But since Catchy Motions is more about futuristic and unconventional videography, the ‘Play’ icon is used twice giving a look of the ‘Fast Forward’ icon. This conveys the movement towards future at a faster pace and denotes progress. Secondly, the semi-circle formed around it forms the letter ‘C’ in a rapid stroke. The bold, natural stroke portrays the raw, unconventional and spontaneous aspects of its nature. Also the Logo Symbol as a whole, looks like a ‘happy emoticon’ which is a perfect complement to the name - Catchy Motions.",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506363506/cw/catchy/overview/Key-Elements.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363506/cw/catchy/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506363503/cw/catchy/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506363503/cw/catchy/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506363503/cw/catchy/overview/Mock-up-3.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506363503/cw/catchy/overview/Mock-up-3.jpg"
 			],
 			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506363502/cw/catchy/overview/Background.jpg"
 		},
 
 		"rievera": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316486/cw/rievera/thumbnail/RIEVERA.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316486/cw/rievera/thumbnail/RIEVERA.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design & branding",
 			"thumb_title": "Rievera - italian designer paints",
@@ -191,17 +213,17 @@
 			"desc_heading": "Identity Design for Rievera Paints",
 			"desc_intro": "Since 1994, Rievera Paints and Coatings – an Italian luxury paints company - has been one of the premier manufacturers of specialized textured finishes and industrial paints in India, serving clients both local and international.<br>Based in Italy, Rievera offers best in class products to their customers and supply to leading OEMs and developers in India. Their Italian roots and close proximity to the inspiring art that’s present in every fiber of the city of Italy, reflects brilliantly in our competitive range of products. Our vast area of expertise both in years and in marquee clients enables us to remain up-to- date with the evolving trends and often be the frontrunners in introducing and adapting to new technologies and developments in the world of paints.",
 			"desc_note": "'RIEVERA' - is an Italian word for a coastline, sea coast or river bank coast. An icon in the form of ‘Waves’ has been used to convey this reference to the coast. The parent company is from Italy, which is famous as the City of Artists. Hence to bring forth the essence of this, a minimalistic form of a palette has been used. Here the palette not only corelates to our product but also portrays the variety and range we have at Rievera. The shades of Waves in the logo depicts our vast product range. The angle of the palette is aligned in a way that simultaneously also portrays an open inverted comma, suggesting our range has an opening but no end in sight. A palette is an object which is used to create numerous permutations and combinations of shades  and soon a totally new colour tone takes birth. This sums up the essence of the brand - Rievera. ",
-			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364217/cw/rievera/overview/Orientation.jpg",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364217/cw/rievera/overview/Key-Elements.jpg",
+			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364217/cw/rievera/overview/Orientation.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364217/cw/rievera/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364218/cw/rievera/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364220/cw/rievera/overview/Mock-up-2.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364218/cw/rievera/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364220/cw/rievera/overview/Mock-up-2.jpg"
 			],
 			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506364220/cw/rievera/overview/Background.jpg"
 		},
 
 		"nads": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316465/cw/nads/thumbnail/NADS-Star-Enablers.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316465/cw/nads/thumbnail/NADS-Star-Enablers.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design, branding & collaterals",
 			"thumb_title": "nads-star enablers",
@@ -209,18 +231,18 @@
 			"desc_heading": "Identity Design & Branding for NADS-Star Enablers",
 			"desc_intro": "NADS (Naidu's Academy of Developmental Studies), founded in 2003, earlier known as Target Success Group Tuitions & Test Series and Star Enablers founded in 2013 are exceedingly honoured to enable students of standards IX and X (SSC Board) to take early footsteps to success @ NADS-Star Enablers.<br>This joint venture is a coming together of like minded, highly experienced and sincere educationists in Prof. S.S. Vengsarkar and Prof. Naidu Subramaniyam, under the mentorship of Prof. Sudhir Kamath, a very distinguished Mathematics teacher counted among the very best in the field of Commerce.<br>NADS-Star Enablers not only endeavours to bring out the very best in our student-friends at the SSC Board examinations as we have always been doing but also to educate them in such a manner that they are able to handle the rigours of the syllabi in the years to come irrespective of the academic stream they may choose.",
 			"desc_note": "The Logo symbol is the icon of an open book which is created from two puzzle pieces. Firstly, it portrays the partnership of two reputed educational institutes NADS and STAR ENABLERS. Secondly, the puzzle pieces are used to showcase the friendly way of educating students and creating a playful yet educational atmosphere at the institute. The Book has been placed in a manner which creates an upward arrow symbolizing the growth of the students. The colour Yellow symbolises the feelings of friendliness, warmth, cheerfulness, while the colour Blue denotes being trustworthy, secure and responsible. ",
-			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364463/cw/nads/overview/Orientation.jpg",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364469/cw/nads/overview/Key-Elements.jpg",
+			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364463/cw/nads/overview/Orientation.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364469/cw/nads/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364470/cw/nads/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364471/cw/nads/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364469/cw/nads/overview/Mock-up-3.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364470/cw/nads/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364471/cw/nads/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364469/cw/nads/overview/Mock-up-3.jpg"
 			],
 			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506364468/cw/nads/overview/Background.jpg"
 		},
 
 		"the-tabletop-guy": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316529/cw/tabletop/thumbnail/TTG.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316529/cw/tabletop/thumbnail/TTG.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Logo design & branding",
 			"thumb_title": "the tabletop guy",
@@ -228,17 +250,17 @@
 			"desc_heading": "Identity Design for The Tablletop Guy",
 			"desc_intro": "“The Tablletop Guy” a company formed by an independent photographer specialized in Table Top Photography",
 			"desc_note": "The Logo is more of a design based monogram. The initials of the company TTG has been Hand Lettered in a form of a table giving a good visual impact. It carries a three-dimensional view primarily showcasing top view of the table. The camera focus subtly speaks about the photography aspect of it. Ultimately conveying it in a straight forward yet minimal way about companies prime focus in Table Top Photography.",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364843/cw/tabletop/overview/Key-Elements.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364843/cw/tabletop/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364848/cw/tabletop/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364844/cw/tabletop/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506364848/cw/tabletop/overview/Mock-up-3.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364848/cw/tabletop/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364844/cw/tabletop/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506364848/cw/tabletop/overview/Mock-up-3.jpg"
 			],
-			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506364836/cw/tabletop/overview/Background.jpg"
+			"desc_bg-head": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506364836/cw/tabletop/overview/Background.jpg"
 		},
 
 		"aubergina": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316230/cw/aubergina/thumbnail/Aubergina.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316230/cw/aubergina/thumbnail/Aubergina.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design",
 			"thumb_title": "aubergina",
@@ -247,15 +269,15 @@
 			"desc_intro": "Aubergina is a New York based high end wedding apparel & accessories brand. The dictionery meaning of Aubergina is a genus of butterflies in the family Lycaenidae. The name itself portrays its royal, unique and modern nature. The Design is a 'Logotype' in a form of Calligraphy portrating brand qualities like being Artsy, Upmarket, High Fashion, International, Aspirational and Clever.",
 			"desc_note": "The logo is a monogram formed with the initials ‘I & S’. The corners of the alphabet ‘S’ represent a form of camera focus along with a curved line in the middle which signifies his journey of photography. The ventures and expeditions – right from his diploma in photography to his expansion into various fields of photography - constitute an important part of his profession. The edges of the logo symbolize his sharp and composed personality. In a nutshell, the logo bears a resemblance to a framed artwork with a balanced composition and space.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365165/cw/aubergina/overview/Aubergina-Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365164/cw/aubergina/overview/Mock-up-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365166/cw/aubergina/overview/Mock-up-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365158/cw/aubergina/overview/Mock-up-4.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365165/cw/aubergina/overview/Aubergina-Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365164/cw/aubergina/overview/Mock-up-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365166/cw/aubergina/overview/Mock-up-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365158/cw/aubergina/overview/Mock-up-4.jpg"
 			]
 		},
 		
 		"mmrcc": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316442/cw/mmrcc/thumbnail/MMRCC.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316442/cw/mmrcc/thumbnail/MMRCC.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Logo design & branding",
 			"thumb_title": "MMRCC",
@@ -263,11 +285,11 @@
 			"desc_heading": "Identity Design & Branding for NADS-Star Enablers",
 			"desc_intro": "Mountaineers Rescue Coordination Centre (MMRCC), the brainchild of Guardian Giripremi Institute of Mountaineering is a well-organised body that can help locate the casualty connect with local mountaineers, rescue volunteers, the police and ambulance services and offer first aid. The helpline (7620-230-231) will be a 24 x 7 service available for coordinating an immediate search & rescue operation required in any parts of rural Maharashtra. ",
 			"desc_note": "The motive behind setting up MMRCC is to create a well-organized body that will provide quick service to the mountaineers, if they meet with an accident. A range of mountains and the icon of one hand holding another signifies an immidiate helping hand provided by the organization in the critical condition. The arrows at the bottom define the speedy action taken during the rescue operations. Also the complete icon takes a shape of a shield symbolizing protection. ",
-			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365366/cw/mmrcc/overview/Orientation.jpg",
-			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365374/cw/mmrcc/overview/Key-Elements.jpg",
+			"desc_orientation": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365366/cw/mmrcc/overview/Orientation.jpg",
+			"desc_elements": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365374/cw/mmrcc/overview/Key-Elements.jpg",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365371/cw/mmrcc/overview/Mock-up-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506365373/cw/mmrcc/overview/Mock-up-2.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365371/cw/mmrcc/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506365373/cw/mmrcc/overview/Mock-up-2.jpg"
 			],
 			"desc_bg": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506365374/cw/mmrcc/overview/Background.jpg"
 		}
@@ -275,7 +297,7 @@
 
 	"pro": {
 		"festive-greetings": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316558/pa/festice/thumbnail/Festive-Greetings.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316558/pa/festice/thumbnail/Festive-Greetings.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "concptual expressive calligraphy",
 			"thumb_title": "festive greetings",
@@ -283,97 +305,114 @@
 			"desc_heading": "Festive greetings in the form of Experimental Calligraphy ",
 			"desc_intro": "India is well known as a country of cultural and traditional festivals as it has diversified cultures and religions. One can enjoy the festival celebration in India every month. As it is a secular country full of diversity in the religions, languages, cultures and castes, it is always crowded with the people involved in the fairs and festivals celebration. People from each religion have their own cultural and traditional festivals. Some of the festivals are celebrated by the people of all religions in the entire nation. Each and every festival is celebrated uniquely in different ways according to the rituals, beliefs and its significant history behind. Indian origin people in the abroad also celebrate their cultural festival with the immense passion. The country is an example of unity in diversity as it contains people of various religions like Hindu, Muslim, Sikh, Jain, Christian and etc. Some of the festivals are celebrated at national level whereas some of are at regional level.<br>We don't need a reason to celebrate, we celebrate every moment of life at the fullest. Since India is blessed with a variety of Culture and Tradition, we have a variety of festivals as well. We celebrate Festivals like Diwali, Holi, Ganesh Chaturthi, Eid, Dusshera and many more with the spirit of togetherness. One of the practices is to send greetings to our loved ones on every occasion and festival, I started exploring the depth and the essence of Indian Festivals and execute in different forms of calligraphy to convey my best wishes.<br>Since past few years I have been sending best wishes to my family, friends, love ones, acquaintance in the form of calligraphy. Now, its amongst the rituals for me during every festival. I experiment with the tools, surfaces, mediums etc and everything I use has a reason / purpose / concept to convey a certain message / thought as a whole.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366042/pa/festice/overview/FG-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366040/pa/festice/overview/FG-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366041/pa/festice/overview/FG-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366035/pa/festice/overview/FG-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366032/pa/festice/overview/FG-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366043/pa/festice/overview/FG-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366045/pa/festice/overview/FG-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366026/pa/festice/overview/FG-8.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366031/pa/festice/overview/FG-9.jpg",
-				"http://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366034/pa/festice/overview/FG-10.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366022/pa/festice/overview/FG-11.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366026/pa/festice/overview/FG-12.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366021/pa/festice/overview/FG-13.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366022/pa/festice/overview/FG-14.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366022/pa/festice/overview/FG-15.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366015/pa/festice/overview/FG-16.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366015/pa/festice/overview/FG-17.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366010/pa/festice/overview/FG-18.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366013/pa/festice/overview/FG-19.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366015/pa/festice/overview/FG-20.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366042/pa/festice/overview/FG-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366040/pa/festice/overview/FG-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366041/pa/festice/overview/FG-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366035/pa/festice/overview/FG-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366032/pa/festice/overview/FG-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366043/pa/festice/overview/FG-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366045/pa/festice/overview/FG-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366026/pa/festice/overview/FG-8.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366031/pa/festice/overview/FG-9.jpg",
+				"http://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366034/pa/festice/overview/FG-10.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366022/pa/festice/overview/FG-11.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366026/pa/festice/overview/FG-12.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366021/pa/festice/overview/FG-13.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366022/pa/festice/overview/FG-14.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366022/pa/festice/overview/FG-15.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366015/pa/festice/overview/FG-16.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366015/pa/festice/overview/FG-17.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366010/pa/festice/overview/FG-18.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366013/pa/festice/overview/FG-19.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366015/pa/festice/overview/FG-20.jpg"
 			]
 		},
 
 		"upstroke": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316578/pa/upstroke/thumbnail/Upstroke.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316578/pa/upstroke/thumbnail/Upstroke.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Experimental Calligraphy",
 			"thumb_title": "Upstroke workshop",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366677/pa/upstroke/overview/Logo.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366677/pa/upstroke/overview/Logo.jpg",
 			"desc_heading": "Experimental Calligraphy at Upstroke - an advance calligraphy workshop",
 			"desc_intro": "Upstroke- An advance-experimental calligraphy workshop by Kalpesh Gosavi for art / design students, practitioners, calligraphy enthusiasts and practitioners. The purpose of the workshop was to get a right kind of understanding to look at various calligraphic tools and their different working approaches. The workshop also focused on delivering an innovative understanding about tools manipulation, various methods of tools handling for creative letterforms and making them appropriate for various design implementations along with experimenting in conventional and unconventional approaches of calligraphy with the tool usage.",
 			"desc_note": "",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366691/pa/upstroke/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366691/pa/upstroke/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366691/pa/upstroke/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366689/pa/upstroke/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366690/pa/upstroke/overview/Image-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366686/pa/upstroke/overview/Image-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366686/pa/upstroke/overview/Image-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366689/pa/upstroke/overview/Image-8.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366686/pa/upstroke/overview/Image-9.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366686/pa/upstroke/overview/Image-10.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366686/pa/upstroke/overview/Image-11.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366681/pa/upstroke/overview/Image-12.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366681/pa/upstroke/overview/Image-13.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366681/pa/upstroke/overview/Image-14.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366681/pa/upstroke/overview/Image-15.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506366681/pa/upstroke/overview/Image-16.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366691/pa/upstroke/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366691/pa/upstroke/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366691/pa/upstroke/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366689/pa/upstroke/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366690/pa/upstroke/overview/Image-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366686/pa/upstroke/overview/Image-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366686/pa/upstroke/overview/Image-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366689/pa/upstroke/overview/Image-8.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366686/pa/upstroke/overview/Image-9.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366686/pa/upstroke/overview/Image-10.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366686/pa/upstroke/overview/Image-11.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366681/pa/upstroke/overview/Image-12.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366681/pa/upstroke/overview/Image-13.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366681/pa/upstroke/overview/Image-14.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366681/pa/upstroke/overview/Image-15.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506366681/pa/upstroke/overview/Image-16.jpg"
 			]
 		},
 		
 		"tributes": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316647/pa/tributes/thumbnail/Tributes.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316647/pa/tributes/thumbnail/Tributes.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Experimental calligraphy",
 			"thumb_title": "calligraphic tributes",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367476/pa/tributes/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367480/pa/tributes/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367460/pa/tributes/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367472/pa/tributes/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367439/pa/tributes/overview/Image-5.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367476/pa/tributes/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367480/pa/tributes/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367460/pa/tributes/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367472/pa/tributes/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367439/pa/tributes/overview/Image-5.jpg"
 			]
 		},
 
 		"parents-day": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316697/pa/npd/thumbnail/National-Parents-Day.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316697/pa/npd/thumbnail/National-Parents-Day.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "advertising campaign",
 			"thumb_title": "national parents' day campaign",
-			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506015245/pa/npd/NPD_1.jpg",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506015245/pa/npd/NPD_1.jpg",
 			"desc_heading": "Identity Design & Branding for Indraneel Shelar",
 			"desc_intro": "We are always surrounded with the Brands. Most of us have a liking towards a particular brand. Being an advertising and design professional I got an opportunity to learn in detail about terms like Parent Companies, Brands, Products, Services. I have always been fascinated towards the history and development of the Brands. Today on National Parents' Day, I would like to take this opportunity to wish a very Happy Parents' Day to the Parent Companies who has been upbringing the brands and being a part of our day to day lives. I owe my greetings and gratitude to these Parent Companies and all the brands associated with it.",
 			"desc_note": "National Parents’ Day honors all parents on the fourth Sunday in July. Parents play a vital role in the lives of children. From the day we are born, parents are our protectors, teachers, providers and role models.  As families, they are the core of our communities. On National Parents’ Day, we honor all parents do every day to raise up their children in a world that is constantly changing and challenging. Similarly there are thousands of brands who are nurtured by their Parent companies. In the Artworks few of the brands are wishing their respective parent companies 'Happy Parents' Day' by holding a huge greeting card, personifying emotions and respect these brands have towards them.",
 			"desc_mocks": [
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367713/pa/npd/overview/Image-1.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367713/pa/npd/overview/Image-2.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367712/pa/npd/overview/Image-3.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367712/pa/npd/overview/Image-4.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367711/pa/npd/overview/Image-5.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367710/pa/npd/overview/Image-6.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367710/pa/npd/overview/Image-7.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367712/pa/npd/overview/Image-8.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367713/pa/npd/overview/Image-9.jpg",
-				"https://res.cloudinary.com/sudeepgandhi/image/upload/v1506367709/pa/npd/overview/Image-10.jpg"
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367713/pa/npd/overview/Image-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367713/pa/npd/overview/Image-2.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367712/pa/npd/overview/Image-3.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367712/pa/npd/overview/Image-4.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367711/pa/npd/overview/Image-5.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367710/pa/npd/overview/Image-6.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367710/pa/npd/overview/Image-7.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367712/pa/npd/overview/Image-8.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367713/pa/npd/overview/Image-9.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506367709/pa/npd/overview/Image-10.jpg"
 			]
 		},
 
+		"rising-thane": {
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316675/pa/thane/thumbnail/Rising-Thane.jpg",
+			"thumb_slide": [],
+			"thumb_tag": "logo design",
+			"thumb_title": "rising thane",
+			"desc_logo": "https://res.cloudinary.com/sudeepgandhi/image/upload/v1506368909/pa/thane/overview/Logo.jpg",
+			"desc_heading": "Identity Design for Thane City",
+			"desc_intro": "Thane is amongst the fastest growing cities in India. The standard of living there is one of the best in India with respect to infrastructure, basic amenities, healthcare, culture and entertainment, etc. The “green cover” of Thane is spectacular with lush trees and avenues. Famously known as “City of Lakes”, Thane has around 30 lakes. Of these, TalaoPali Lake (also called MasundaTalao) and Upvan Lake are amongst the better known ones. It is also surrounded by many hills which add to its scenic beauty.<br>Culture of a place is a reflection of it’s society. The culture of Thane is fascinating and captivating. It tells us about the people living there, their lifestyles and their beliefs. Observing it gives you a fair idea about the traditions and practices that are still followed by the locals. The festivals, the events, the attractions, all reflect the culture of Thane in one way or the other and give it, it’s unique personality.",
+			"desc_note": "The logo symbol is a combination of various aspects of Thane City. Thane is one of the fastest growing cities in India; the Upward Arrow in  the center of the logo symbolizes “progress” and at the same time it also reflects the shape of a Hill symbolizing the “scenic beauty” of the city. Secondly, Thane is famous as “City of Lakes” for having around 30 lakes. The bottom part of the logo takes the shape of an iconic Lake Water symbol which denotes the “Natural Treasure” and simultaneously also forms the shape of a Diya symbolizing “Culture and Festivals”. The top part of logo shapes up as a Rising Sun reflecting living standards of Thane - one of the best in India by way of infrastructure, basic amenities, healthcare, culture and entertainment, etc. The iconic Growing Plant symbolizes “New Beginnings”. Ultimately, all these qualities makes “Thane” a perfect city to live in. The entire logo symbol takes a shape of 360˚ Circle symbolizing the idea of “completeness”. It shows the logo as a symbol of Thane’s multifaceted yet wholesome personality.<br>Along with the Logo symbol, it is very important to choose an apt form of Typography which reflects the brand personality. The above Bilingual Typeface used in has been constructed keeping in mind all the above mentioned aspects of the “Thane City”. It ultimately reflects the modern character of Thane, yet sustains a traditional touch. Secondly the typeface used in “THANE” is also a bilingual typeface complimenting the Primary Typeface.<br>Following the described colour scheme in the brief, the use of Aqua Blue, Leafy Green and Chrome Yellow has been made in such a manner as to create the perfect blend in the design. It also relates to basic colour principles – that by mixing of two primary colours “Yellow and Blue” we generate a secondary colour “Green”.",
+			"desc_elements":"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506368910/pa/thane/overview/Key-Elements.jpg",
+			"desc_mocks": [
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506368912/pa/thane/overview/Mock-up-1.jpg",
+				"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506368909/pa/thane/overview/Mock-up-2.jpg"
+			],
+			"desc_bg-note":"https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506368909/pa/thane/overview/Concept-Note-Background.jpg"
+		},
+
 		"typoday": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506316623/pa/typo/thumbnail/Typoday-2017.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506316623/pa/typo/thumbnail/Typoday-2017.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "logo design",
 			"thumb_title": "typography day 2017",
@@ -390,7 +429,7 @@
 		},
 
 		"experiments": {
-			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420/v1506320181/pa/misc/thumbnail/Sketchbook.jpg",
+			"thumb_image": "https://res.cloudinary.com/sudeepgandhi/image/upload/q_85:420,fl_progressive/v1506320181/pa/misc/thumbnail/Sketchbook.jpg",
 			"thumb_slide": [],
 			"thumb_tag": "Practice work",
 			"thumb_title": "sketchbook & experiments",

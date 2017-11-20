@@ -17,51 +17,63 @@
 	<header class="header content__container">
 		<div class="header__logo" role="img">
 			<a href="index.html">
-				<img src="assets/BrandLogo1.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
+				<img src="assets/SG-LOGO.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
 			</a>
 		</div>
-		<nav>
+		<input type="checkbox" id="menu">
+		<label for="menu" onclick></label>
+		<nav role="on-canvas">
 			<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
 				<li class="navigation-site__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
 
 				<li class="navigation-site__links "><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
 
-				<li class="navigation-site__links"><a href="#" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
+				<li class="navigation-site__links"><a href="contact.html" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
+			</ul>
+		</nav>
+		<nav role="off-canvas">
+			<ul role="menubar" class="content--normalise navigation-site__off">
+				<li class="off-nav__links"><a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a></li>
+				<li class="off-nav__links"><a href="work.html" aria-label="navigate to Sudeep's work">WORK</a></li>
+				<li class="off-nav__links"><a href="contact.html" aria-label="navigate to Sudeep's contact details">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main id="content-placeholder">
+		<div class="content--fetch template-loader">
+			<img src = "assets/LoadingOp2.png" alt="data loading indicator">
+		</div>
 		<script id="template" type="text/x-handlebars-template">
 			<div class="overview" style="background-image:url({{desc_bg}});">
 				{{#if desc_heading}}
-				<header class="container overview__header">
+				<header class="overview__header adjust-bg" style="background-image:url({{desc_bg-head}});">
 					<h1 class="main-title">{{desc_heading}}</h1>
 					<div class="logo">
 						{{#if desc_logo}}
-						<img class="logo-img" src="{{desc_logo}}">
+						<img class="logo-img lazyload" data-src="{{desc_logo}}" >
 						{{/if}}
-						<p class="info">{{{desc_intro}}}</p>
+						<p class="info container">{{{desc_intro}}}</p>
 					</div>
 				</header>
 				{{/if}}
 				<div class="information">
 					{{#if desc_elements}}
-					<section class="opt-info">
+					<section class="opt-info adjust-bg" style="background-image:url({{desc_bg-el}});">
 						 <h2 class="info-title">Key elements</h2> 
 						<div class="opt-info__image">
-							<img class="opt-info__image--fl" src="{{desc_elements}}" alt="key elements of the design">
+							<img class="opt-info__image--fl lazyload" data-src="{{desc_elements}}" alt="key elements of the design">
 						</div>
 					</section>
 					{{/if}} {{#if desc_note}}
-					<section class="container concept-note">
+					<section class="concept-note adjust-bg" style="background-image:url({{desc_bg-note}});">
 						<h2 class="info-title">Concept note</h2>
-						<p class="info">{{{desc_note}}}</p>
+						<p class="info container">{{{desc_note}}}</p>
 					</section>
 					{{/if}} {{#if desc_orientation}}
 					<section class="opt-info orientation">
 						<h2 class="info-title">Orientation</h2>
 						<div class="opt-info__image">
-							<img class="opt-info__image--hf" src="{{desc_orientation}}" alt="horizontal & vertical orientation of the design"> 
+							<img class="opt-info__image--hf lazyload" data-src="{{desc_orientation}}" alt="horizontal & vertical orientation of the design"> 
 						</div>
 					</section>
 					{{/if}}
@@ -70,11 +82,30 @@
 			</div>
 			<div class="related-images">
 				{{#each desc_mocks}}
-				<img src="{{this}}" alt="mocks"> {{/each}}
+				<img class="lazyload" src=data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPMyiqYBwAEbgHkSBS7fgAAAABJRU5ErkJggg== data-src="{{this}}" alt="worked design"> {{/each}}
 			</div>
 		</script>
 	</main>
+	<footer class="footer content__container">
+		<p class="disclaimer">© 2017 Sudeep Gandhi. All Rights Reserved.</p>
+		<nav class="footer_social">
+			<a href="#">
+				<img src="assets/Icon-Facebook.png" alt="">
+			</a>
+			<a href="#">
+				<img alt="" src="assets/Icon-Insta.png">
+			</a>
+			<a href="#">
+				<img alt="" src="assets/Icon-Linkedin.png">
+			</a>
+			<a href="#">
+				<img alt="" src="assets/Icon-Behance.png">
+			</a>
+	
+		</nav>
+	</footer>
 	<script defer src="scripts/vendor.js"></script>
+	<!-- <script defer src="http://cdn.jsdelivr.net/blazy/latest/blazy.min.js "></script> -->
 	<script defer src="scripts/overview.bundle.js"></script>
 </body>
 

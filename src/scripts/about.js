@@ -1,23 +1,56 @@
 import $ from 'jquery';
 import slick from 'slick-carousel';
 
+import CommonUtil from './app';
+
+
 /**
  * initialise slick carousel instances
  */
 
 $('.photo-slider').slick({
-	slidesToScroll: 2,
-	slidesToShow: 2,
+	slidesToScroll: 1,
+	slidesToShow: 1,
 	infinite: true,
-	autoplay: true,
+	autoplay: false,
+	arrows: true,
+	dots: true,
+	responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			},
+		},
+		{
+			breakpoint: 620,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				draggable: true,
+			},
+		},
+	],
 });
 
 $('.client-content').slick({
 	dots: true,
-	autoplay: true,
+	autoplay: false,
+	draggable: true,
+	arrows: true,
+	responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				arrows: false,
+			},
+		},
+	],
 });
 
-$('.about-nav__link').on('click', function (event) {
+$('.about-nav__link').on('click', function navJump(event) {
 	const hash = this.hash;
 	if (hash !== '') {
 		event.preventDefault();
@@ -29,4 +62,6 @@ $('.about-nav__link').on('click', function (event) {
 		});
 	}
 });
+
+CommonUtil.initiateOffNav();
 

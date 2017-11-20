@@ -1,18 +1,13 @@
-import $ from 'jquery';
-import Handlebars from 'handlebars';
-
-import * as firebase from 'firebase/app';
 import 'firebase/database';
 
-// Initialise firebase
-const fire = firebase.initializeApp({
-	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
-	authDomain: 'sudeepgandhiweb.firebaseapp.com',
-	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
-	projectId: 'sudeepgandhiweb',
-});
+import $ from 'jquery';
+import Handlebars from 'handlebars';
+import lazySizes from 'lazysizes';
 
-const db = fire.database();
+import CommonUtil from './app';
+
+const fire = new CommonUtil();
+const db = fire.fireInstance.database();
 
 const source = $('#template').html();
 const template = Handlebars.compile(source);
@@ -49,4 +44,5 @@ function initPageContent() {
 }
 
 initPageContent();
+CommonUtil.initiateOffNav();
 

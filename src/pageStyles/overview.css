@@ -1,9 +1,19 @@
 #content-placeholder {
 	margin: 0;
+
+	.template-loader{
+		height: calc(100vh - 174px);
+		top:0px;
+	}
+
+	.adjust-bg{
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 }
 
 .overview {
-	margin-top: -50px;
+	margin-top: -3.125rem;
 	background-position:top center;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -20,60 +30,66 @@
 		font-weight: 500;
 	}
 	.info {
-		font-size: 14px;
+		font-size: 0.875rem;
 		line-height: 1.79;
 		color: #808284;
 		width: 80%;
 		margin: 0 auto;
-		// text-align:justify;
+		text-align:justify;
 
 		br{
 			line-height:3;
 		}
 	}
 	.overview__header {
-		padding-top: 100px;
+		padding-top: 6.25rem;
 		.main-title {
 			text-align: center;
-			font-size: 24px;
-			line-height: 1.04;
+			font-size: 1.5rem;
+			padding: 0 1rem;
+			line-height: 1.4;
+			word-break: break-word;
 			color: $gold;
 			font-weight: 400;
+			text-transform: capitalize;
 		}
 		.logo {
 			text-align: center;
-			padding: 100px 0;
+			padding: 2.25rem 0;
 			display:flex;
 			flex-flow:column nowrap;
 			.logo-img {
-				margin-bottom: 80px;
+				margin-bottom: 5rem;
 				align-self:center;
-				max-width: 100%;
+				max-width: 80%;
+				&:not([src]) {
+					visibility : hidden;
+				}
 			}
 		}
 	}
 
 	.information {
 		position: relative;
+		text-align: center;
 		section {
-			padding: 50px 0;
+			padding: 1.125rem 0;
 			&:last-child {
-				padding-bottom: 100px;
+				padding-bottom: 6.25rem;
 			}
 		}
 		.info-title {
 			display: inline-block;
-			padding: 0 8px;
-			font-size: 24px;
+			padding: 0 0.5rem;
+			font-size: 1.5rem;
 			line-height: 2.25;
 			letter-spacing: 2.4px;
 			text-transform: uppercase;
 			color: $black;
 			border-bottom: 2px solid $gold;
-			margin-bottom: 60px;
+			margin-bottom: 3.75rem;
 		}
 		.opt-info {
-			text-align: center;
 			.info-title{
 				// margin-bottom: 0px;
 			}
@@ -85,6 +101,9 @@
 					left: 0;
 					// transform:translate(-50%,-50%);
 					// height:100%;
+					&:not([src]) {
+						visibility : hidden;
+					}
 				}
 				.opt-info__image--fl {
 					width:100%;
@@ -106,6 +125,9 @@
 	flex-direction: column;
 	img {
 		width: 100%;
+		&:not([src]) {
+			visibility : hidden;
+		}
 	}
 }
 

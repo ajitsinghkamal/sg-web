@@ -22,11 +22,8 @@ const browserAnimationCheck = function whichAnimationEvent() {
 		}
 	}
 	/* eslint-enable no-restricted-syntax */
-
 	return undefined;
 };
-
-const animationEvent = browserAnimationCheck();
 
 function classShuffleUtil(element, classToAdd, classToRemove) {
 	if (typeof element === 'string' || element instanceof String) {
@@ -38,8 +35,16 @@ function classShuffleUtil(element, classToAdd, classToRemove) {
 	}
 }
 
-$('.brush-overlay').addClass('banner__brush--art');
+const animationEvent = browserAnimationCheck();
 
 brush.addEventListener(animationEvent, () => {
 	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
+	sessionStorage.setItem('painted', 'true');
 }, false);
+
+if (sessionStorage.getItem('painted') === 'true') {
+	$('.brush-overlay').hide();
+	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
+} else {
+	$('.brush-overlay').addClass('banner__brush--art');
+}

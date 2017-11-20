@@ -139,6 +139,21 @@ function setOverviewData(index) {
 	case 3:
 		detailsData.desc_note = $(this).val();
 		break;
+	case 4:
+		detailsData.desc_orientation = $(this).val();
+		break;
+	case 5:
+		detailsData.desc_elements = $(this).val();
+		break;
+	case 6:
+		detailsData.desc_bg = $(this).val();
+		break;
+	case 7:
+		detailsData['desc_bg-head'] = $(this).val();
+		break;
+	case 8:
+		detailsData['desc_bg-note'] = $(this).val();
+		break;
 	default:
 		break;
 	}

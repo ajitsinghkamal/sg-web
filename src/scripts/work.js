@@ -1,22 +1,12 @@
-import $ from 'jquery';
-
 // import * as firebase from 'firebase/app';
-// import 'firebase/database';
+import 'firebase/database';
 
-import LazyLoad from 'vanilla-lazyload';
+import $ from 'jquery';
+import lazySizes from 'lazysizes';
+import CommonUtil from './app';
 
 // Constants declaration
-const API = 'https://sudeepgandhiweb.firebaseio.com/.json'; // database path
-
-// const fire = firebase.initializeApp({
-// 	apiKey: 'AIzaSyDiMtPwt58-NEnR56kTzJ9HddG5IrGuhrE',
-// 	authDomain: 'sudeepgandhiweb.firebaseapp.com',
-// 	databaseURL: 'https://sudeepgandhiweb.firebaseio.com',
-// 	projectId: 'sudeepgandhiweb',
-// });
-
-// const db = fire.database();
-
+// const API = 'https://sudeepgandhiweb.firebaseio.com/.json'; // database path
 
 // DOM references
 const clientGrid = $('.grid__client');
@@ -24,17 +14,20 @@ const proGrid = $('.grid__proactive');
 const btnClient = $('.gallery__btn-client');
 const btnProactive = $('.gallery__btn-proactive');
 const gridHolder = $('.grid-holder');
-const background = $('.work-page');
-
-// initialise lazy loading
-let myLazyLoad1 ;
-let myLazyLoad2 ;
+const background = $('.work-page--bg');
 
 let timer = null;
 
 const slideMap = []; // holds id reference for divs with slideshow
 
+const fire = new CommonUtil();
+const db = fire.fireInstance.database();
 
+/**
+ * adds extra cells to the gallery
+ * for proper alignment of the last row
+ * @param {int} available number of slides to display in the gallery 
+ */
 const calcRequiredExtra = function calcRequiredExtraFunc(available) {
 	return [2, 3, 4, 5].reduce((acc, size) => {
 		const currentRequired = size - (available % size);
@@ -42,6 +35,11 @@ const calcRequiredExtra = function calcRequiredExtraFunc(available) {
 	}, 0);
 };
 
+/**
+ * adds grid to the gallery
+ * @param {string} grid identifier 
+ * @param {*} cell 
+ */
 const addToGrid = function addToGridFunc(grid, cell) {
 	if (grid === 'client') {
 		clientGrid.append(cell);
@@ -50,7 +48,6 @@ const addToGrid = function addToGridFunc(grid, cell) {
 		proGrid.append(cell);
 	}
 };
-
 
 // slideshow 
 const slideShow = function slideShowFunc() {
@@ -78,6 +75,7 @@ function addHoverToCards() {
 		$(`#${slideDiv}`).on('mouseleave', endSlideShow);
 	});
 }
+
 /**
  * takes in response from firebase database
  * and construct the grid showcase of the work done
@@ -92,7 +90,7 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 
 			const imgSlot = ($("<div class='card__image'></div>").attr('id', gridType + index));
 
-			imgSlot.append($(`<img data-original=${gridData[data].thumb_image}></div>`).addClass('lazyload'));
+			imgSlot.append($(`<img src=data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPMyiqYBwAEbgHkSBS7fgAAAABJRU5ErkJggg== data-src=${gridData[data].thumb_image}></div>`).addClass('lazyload'));
 			if (gridData[data].thumb_slide) {
 				gridData[data].thumb_slide.forEach((sl) => {
 					imgSlot.append($(`<img src=${sl}>`).hide());
@@ -116,47 +114,43 @@ const constructGrid = function constructGridFunc(gridData, gridType) {
 	}
 };
 
-// db.ref().on('value', (snapshot) => {
-// 	const clientWorkList = snapshot.child('client').val();
-// 	constructGrid(clientWorkList, 'client');
-// 	const proWorkList = snapshot.child('pro').val();
-// 	constructGrid(proWorkList, 'pro');
-
-// 	myLazyLoad = new LazyLoad();
-// 	addHoverToCards();
-// });
-// db.ref('/pro/').once('value', (snapshot) => {
-// });
-
 /**
  * calls firebase data api , 
  * fetches response and initiate grid construction
  * 
  */
-const beginShowcase = function beginShowcaseFunc() {
-	$.get(API, (response) => {
-		// console.log(response);
-	})
-		.done((response) => {
-			Object.keys(response).forEach((key) => {
-				constructGrid(response[key], key);
-			});
+// const beginShowcase = function beginShowcaseFunc() {
+// 	$.get(API, (response) => {
+// 		Object.keys(response).forEach((key) => {
+// 			constructGrid(response[key], key);
+// 		});
+// 	})
+// 		.done(() => {
+// 			addHoverToCards();
+// 			$('.content--fetch').addClass('content--complete');
+// 		})
+// 		.fail((error) => {
+// 			console.error(error.message);
+// 		});
+// };
 
-			myLazyLoad1 = new LazyLoad({
-				container: document.getElementById('o-client'),
-			});
+db.ref('/').once('value').then((snapshot) => {
+	if (snapshot.child('client').exists()) {
+		constructGrid(snapshot.child('client').val(), 'client');
+	}
 
-			myLazyLoad2 = new LazyLoad({
-				container: document.getElementById('o-proactive'),
-			});
-
-			addHoverToCards();
-			$('.grid--fetch').addClass('grid--complete');
-		})
-		.fail((error) => {
-			console.error(error.message);
-		});
-};
+	if (snapshot.child('pro').exists()) {
+		constructGrid(snapshot.child('pro').val(), 'pro');
+	}
+}, (error) => {
+	console.error(error.message);
+})
+	.then(() => {
+		addHoverToCards();
+		$('.content--fetch').addClass('content--complete');
+	}, (error) => {
+		console.error(error.message);
+	});
 
 // ------------- event listeners ---------------------
 
@@ -164,18 +158,20 @@ const beginShowcase = function beginShowcaseFunc() {
  * 
  */
 btnClient.on('click', () => {
-	background.removeClass('work-page--bg');
+	background.removeClass('bg--reveal');
 	btnClient.addClass('gallery--active');
 	btnProactive.removeClass('gallery--active');
 	gridHolder.removeClass('grid--slide');
 });
 
 btnProactive.on('click', () => {
-	background.addClass('work-page--bg');
+	background.addClass('bg--reveal');
 	btnClient.removeClass('gallery--active');
 	btnProactive.addClass('gallery--active');
 	gridHolder.addClass('grid--slide');
 });
 
-beginShowcase();
+// beginShowcase();
+
+CommonUtil.initiateOffNav();
 
