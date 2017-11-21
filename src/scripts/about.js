@@ -19,15 +19,6 @@ $('.photo-slider').slick({
 		{
 			breakpoint: 1024,
 			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-			},
-		},
-		{
-			breakpoint: 620,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
 				arrows: false,
 				draggable: true,
 			},

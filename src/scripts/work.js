@@ -158,15 +158,15 @@ db.ref('/').once('value').then((snapshot) => {
  * 
  */
 btnClient.on('click', () => {
-	background.removeClass('bg--reveal');
-	btnClient.addClass('gallery--active');
+/* 	background.removeClass('bg--reveal');
+ */	btnClient.addClass('gallery--active');
 	btnProactive.removeClass('gallery--active');
 	gridHolder.removeClass('grid--slide');
 });
 
 btnProactive.on('click', () => {
-	background.addClass('bg--reveal');
-	btnClient.removeClass('gallery--active');
+/* 	background.addClass('bg--reveal');
+ */	btnClient.removeClass('gallery--active');
 	btnProactive.addClass('gallery--active');
 	gridHolder.addClass('grid--slide');
 });

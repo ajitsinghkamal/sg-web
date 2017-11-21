@@ -33,6 +33,10 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+button {
+	border:0;
+}
+
 .content--normalise{
 	margin: 0;
 	padding: 0;
@@ -44,7 +48,7 @@ body{
 
 .content__container{
 	width: 100%;
-	overflow: auto;
+	overflow: hidden;
 	padding: 0 3.5rem ;
 	
 	nav{
@@ -69,14 +73,13 @@ body{
 
 .navigation-site__links{
 	text-align: center;
-	flex-basis: 115px;
 	// transition: color 0.1s;
 	position: relative;
-	background-image: none ;
+	/* background-image: none ;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: contain; */
 
 	.background-brush {
 		position: absolute;
@@ -88,9 +91,9 @@ body{
 		img {
 			object-fit: contain;
 			position: relative;
-			width:7.5rem;
+			width:7rem;
 			top: 50%;
-			left: 55%;
+			left: 60%;
 			transform: translate(-50%,-50%);
 		}
 
@@ -143,6 +146,7 @@ body{
 		img{
 			width:auto;
 			height: 71px;
+			transform: translateX(-6px);
 		}
 	}
 
@@ -204,11 +208,6 @@ body{
 		}
 	}
 
-	
-
-
-	
-
 	@media (max-width:1023px) {
 
 		nav[role="on-canvas"] {
@@ -235,8 +234,6 @@ body{
 		}
 	}
 }
-
-
 
 .content--fetch {
 	position: relative;

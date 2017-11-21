@@ -47,6 +47,9 @@
 				&:focus {
 					outline: none;
 				}
+				&:active {
+					opacity: 0.8;
+				}
 			}
 
 			
@@ -67,15 +70,20 @@
 
 			h2 {
 				letter-spacing: 0.3px;
-				line-height: 1.06;
+				line-height: 1.8;
 				font-weight: 400;
 				font-size: 1rem;
+				margin-top: 0;
 			}
 
 			#name,
 			#email,
 			#mesg{
 				border: 1px solid $grey_sixty;
+				font-family: inherit;
+				font-size: 12px;
+				letter-spacing: normal;
+				line-height: 2;
 			}
 
 			.info {
