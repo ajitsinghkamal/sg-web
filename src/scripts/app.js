@@ -2,6 +2,7 @@
 import $ from 'jquery';
 import * as firebase from 'firebase/app';
 
+
 export default class CommonUtil {
 	constructor() {
 		this.fireInstance = firebase.initializeApp({

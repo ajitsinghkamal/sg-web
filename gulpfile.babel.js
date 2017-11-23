@@ -24,7 +24,6 @@ const browserSync = require('browser-sync').create();
 // ================== Dev =============================
 const postcss = require('gulp-postcss');
 const htmlmin = require('gulp-htmlmin');
-const critical = require('critical').stream;
 
 const vendors = ['jquery', 'firebase', 'slick-carousel', 'handlebars', 'vanilla-lazyload'];
 

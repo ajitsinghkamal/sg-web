@@ -10,11 +10,11 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="content--normalise">
+<body class="content--normalise content__container">
 	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-	<header class="header content__container">
+	<header class="header">
 		<div class="header__logo" role="img">
 			<a href="index.html">
 				<img src="assets/SG-LOGO.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
@@ -39,6 +39,10 @@
 			</ul>
 		</nav>
 	</header>
+	<nav class="gallery__navigation gallery_navigation--left">
+		<button aria-label="switch to Sudeep's client work portfolio" class="[ gallery--toggle gallery__btn-client ] gallery--active">CLIENT WORK</button>
+		<button aria-label="switch to Sudeep's pro-active work portfolio" class="[ gallery--toggle gallery__btn-proactive ]">PRO-ACTIVE</button>
+	</nav>
 	<main id="content-placeholder">
 		<div class="content--fetch template-loader">
 			<img src = "assets/LoadingOp2.png" alt="data loading indicator">
@@ -80,13 +84,14 @@
 
 				</div>
 			</div>
+			
 			<div class="related-images">
 				{{#each desc_mocks}}
 				<img class="lazyload" src=data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPMyiqYBwAEbgHkSBS7fgAAAABJRU5ErkJggg== data-src="{{this}}" alt="worked design"> {{/each}}
 			</div>
 		</script>
 	</main>
-	<footer class="footer content__container">
+	<footer class="footer">
 		<p class="disclaimer">© 2017 Sudeep Gandhi. All Rights Reserved.</p>
 		<nav class="footer_social">
 			<a href="#">

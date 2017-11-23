@@ -30,27 +30,28 @@
 		font-weight: 500;
 	}
 	.info {
-		font-size: 0.875rem;
-		line-height: 1.79;
-		color: #808284;
+		font-size: 0.8rem;
+		line-height: 2.08;
+		color: #181818;
 		width: 80%;
+		max-width: 700px;
 		margin: 0 auto;
-		text-align:justify;
-
+		font-weight: 300;
 		br{
 			line-height:3;
 		}
 	}
 	.overview__header {
-		padding-top: 6.25rem;
+		padding-top: 8rem;
+		text-align: center;
 		.main-title {
-			text-align: center;
-			font-size: 1.5rem;
-			padding: 0 1rem;
+			font-size: 1.125rem;
+			padding: 0.67rem 1rem;
 			line-height: 1.4;
+			display: inline-block;
 			word-break: break-word;
-			color: $gold;
 			font-weight: 400;
+			border-bottom: 2px solid $gold;
 			text-transform: capitalize;
 		}
 		.logo {
@@ -73,7 +74,7 @@
 		position: relative;
 		text-align: center;
 		section {
-			padding: 1.125rem 0;
+			padding: 2.125rem 0;
 			&:last-child {
 				padding-bottom: 6.25rem;
 			}
@@ -81,10 +82,9 @@
 		.info-title {
 			display: inline-block;
 			padding: 0 0.5rem;
-			font-size: 1.5rem;
+			font-size: 1.125rem;
 			line-height: 2.25;
 			letter-spacing: 2.4px;
-			text-transform: uppercase;
 			color: $black;
 			border-bottom: 2px solid $gold;
 			margin-bottom: 3.75rem;
@@ -106,7 +106,7 @@
 					}
 				}
 				.opt-info__image--fl {
-					width:100%;
+					max-width:100%;
 				}
 				.opt-info__image--hf{
 					width:100%;
@@ -122,14 +122,33 @@
 
  .related-images {
 	display: flex;
-	flex-direction: column;
+
+	&.related-images--mul {
+		flex-flow: row wrap;
+		justify-content: center;
+		img {
+			margin:0 15px 2.25rem;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	&.related-images--one {
+		flex-flow: column;
+		img {
+			width: 100%;
+			margin-bottom: 2.25rem;
+		}
+	}
+
 	img {
-		width: 100%;
 		&:not([src]) {
 			visibility : hidden;
 		}
 	}
 }
+
+
 
 @media (min-width: 1600px){
 	.opt-info__image--fl {
@@ -139,5 +158,11 @@
 @media (max-width: 1600px){
 	.opt-info__image--fl {
 		object-fit:contain;
+	}
+}
+
+@media (max-width: 834px){
+	.gallery__navigation.gallery_navigation--left{
+		justify-content: center;
 	}
 }
