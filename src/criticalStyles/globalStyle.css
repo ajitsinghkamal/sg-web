@@ -321,6 +321,9 @@ button {
 	.footer{
 		flex-flow: column;
 	}
+	.header .header__logo img {
+		height: 50px;
+	}
 }
 
 @keyframes animateloading{

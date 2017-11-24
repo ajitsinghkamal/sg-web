@@ -63,7 +63,6 @@
 		font-size: 0.8rem;
 		line-height: 2.08;
 		color: #181818;
-		width: 80%;
 		max-width: 700px;
 		margin: 0 auto;
 		font-weight: 300;
@@ -72,7 +71,7 @@
 		}
 	}
 	.overview__header {
-		padding-top: 8rem;
+		padding-top: 7rem;
 		text-align: center;
 		.main-title {
 			font-size: 1.125rem;
@@ -154,6 +153,7 @@
 
  .related-images {
 	display: flex;
+	padding: 50px 0;
 
 	&.related-images--mul {
 		flex-flow: row wrap;

@@ -40,11 +40,16 @@ const animationEvent = browserAnimationCheck();
 brush.addEventListener(animationEvent, () => {
 	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
 	sessionStorage.setItem('painted', 'true');
+
+	setTimeout(function() {
+		$('.banner').fadeOut();
+		$('.landing').addClass('cover-page--reveal');
+	}, 2000);
 }, false);
 
 if (sessionStorage.getItem('painted') === 'true') {
-	$('.brush-overlay').hide();
-	classShuffleUtil(['.banner__logo', '.cover-page__navigation'], 'cover-page--reveal', 'cover-page--hide');
+	$('.banner').hide();
+	$('.landing').addClass('cover-page--reveal');
 } else {
 	$('.brush-overlay').addClass('banner__brush--art');
 }

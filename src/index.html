@@ -21,15 +21,55 @@
 </head>
 
 <body class="content--normalise">
-	<main class="content__container cover-page">
-		<header class="banner">
+	<header class="cover-page">
+		<div class="banner">
 			<div class="brush-overlay" role="presentation"></div>
 			<img src="assets/Stroke.png" role="presentation" class="banner__brush">
 			<h1 class="content--normalise banner__logo cover-page--hide" aria-label="Sudeep Gandhi, Visual Designer & Calligraphist">
 				<img src="assets/BrandLogo.png" role="img" alt="Sudeep Gandhi, Visual Designer Calligraphist">
 			</h1>
+		</div>
+	</header>
+	<main class="content__container landing">
+		<header class="header">
+			<div class="header__logo" role="img">
+				<a href="index.html">
+					<img src="assets/SG-LOGO.png" alt="Sudeep Gandhi. Visual Disgner & Calligraphist">
+				</a>
+			</div>
+			<input type="checkbox" id="menu">
+			<label for="menu" onclick></label>
+			<nav role="on-canvas">
+				<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
+					<li class="navigation-site__links">
+						<a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a>
+					</li>
+		
+					<li class="navigation-site__links ">
+						<a href="work.html" aria-label="navigate to Sudeep's work">WORK</a>
+					</li>
+		
+					<li class="navigation-site__links">
+						<a href="contact.html" aria-label="navigate to Sudeep's contact details">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+			<nav role="off-canvas">
+				<ul role="menubar" class="content--normalise navigation-site__off">
+					<li class="off-nav__links">
+						<a href="about.html" aria-label="navigate to Sudeep's bio">ABOUT</a>
+					</li>
+					<li class="off-nav__links">
+						<a href="work.html" aria-label="navigate to Sudeep's work">WORK</a>
+					</li>
+					<li class="off-nav__links">
+						<a href="contact.html" aria-label="navigate to Sudeep's contact details">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
-		<nav class="cover-page__navigation cover-page--hide">
+		<section class="hero-content"></section>
+		<!-- <nav class="cover-page__navigation cover-page--hide">
 			<ul role="menubar" class="content--normalise [ navigation navigation-site ]">
 				<li class="navigation-site__links">
 					<div class="background-brush" role="presentation"><img src="./assets/Hover1.png" alt="brush stroke background for menu items"></div>
@@ -65,7 +105,25 @@
 					</a>
 				</li>
 			</ul>
-		</nav>
+		</nav> -->
+		<footer class="footer">
+			<p class="disclaimer">© 2017 Sudeep Gandhi. All Rights Reserved.</p>
+			<nav class="footer_social">
+				<a href="#">
+					<img src="assets/Icon-Facebook.png" alt="">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Insta.png">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Linkedin.png">
+				</a>
+				<a href="#">
+					<img alt="" src="assets/Icon-Behance.png">
+				</a>
+		
+			</nav>
+		</footer>
 	</main>
 	<script defer src="scripts/vendor.js"></script>
 	<script defer src="scripts/index.bundle.js"></script>
