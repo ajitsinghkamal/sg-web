@@ -12,6 +12,36 @@
 	}
 }
 
+.inter-nav {
+	.nav--page-switch{
+		text-align: right;
+		margin: 16px 0;
+	}
+	hr {
+		border:0;
+		height: 2px;
+		background-color: #dadada;
+		width:100%;
+		margin: 0;
+	}
+	.page-switch{
+		background: none;
+		cursor: pointer;
+		font-size: 14px;
+		padding: 0 14px;
+		transition: color 0.3s;
+		&:first-child {
+			border-right: 1px solid $gold;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+		&:hover {
+			color: $gold;
+		}
+	}
+}
+
 .overview {
 	margin-top: -3.125rem;
 	background-position:top center;
@@ -70,6 +100,8 @@
 		}
 	}
 
+	
+
 	.information {
 		position: relative;
 		text-align: center;
@@ -84,7 +116,7 @@
 			padding: 0 0.5rem;
 			font-size: 1.125rem;
 			line-height: 2.25;
-			letter-spacing: 2.4px;
+			letter-spacing: 0.9px;
 			color: $black;
 			border-bottom: 2px solid $gold;
 			margin-bottom: 3.75rem;
@@ -162,7 +194,10 @@
 }
 
 @media (max-width: 834px){
-	.gallery__navigation.gallery_navigation--left{
+	.gallery__navigation {
 		justify-content: center;
+	}
+	.inter-nav .nav--page-switch {
+		text-align: center;
 	}
 }

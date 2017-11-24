@@ -29,6 +29,11 @@
 		
 	}
 
+	.gallery__navigation{
+		border-bottom: 2px solid #dadada;
+		justify-content: center;
+	}
+
 	.grid-holder{
 		position: relative; 
 		display: flex;
@@ -43,7 +48,7 @@
 		display: flex;
 		flex-flow:row wrap;
 		width: 100%;
-		margin: 3.625rem -0.9375rem -0.9375rem ; 
+		margin: 3.625rem 0.9375rem -0.9375rem ; 
 		justify-content: center;
 		align-content:flex-start;
 		

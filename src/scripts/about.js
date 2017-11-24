@@ -23,6 +23,13 @@ $('.photo-slider').slick({
 				draggable: true,
 			},
 		},
+		{
+			breakpoint: 960,
+			settings: {
+				arrows: false,
+				draggable: true,
+			},
+		},
 	],
 });
 
